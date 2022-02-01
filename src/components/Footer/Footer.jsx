@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterContainer>
         <IconsContainer>
-            <SocialIcons to='https://github.com'>
+            <SocialIcons to='https://github.com/izzyben20' >
                 <AiFillGithub size='2.5rem' />
             </SocialIcons>
             <SocialIcons to='https://linkedin.com'>
