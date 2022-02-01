@@ -5,7 +5,8 @@ import GlobalStyles from './components/GlobalStyles/GlobalStyles';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Projects from './components/Projects/Projects';
-// import NavBar from './components/NavBar/NavBar';
+import Skills from './components/Skills/Skills';
+import Footer from './components/Footer/Footer';
 
 const theme = {
     // Temp fonts
@@ -35,10 +36,11 @@ const App = () => {
         <Router>
             <ThemeProvider theme={theme}>
                 <GlobalStyles />
-                {/* <NavBar /> */}
                 <Header />
                 <Hero />
                 <Projects />
+                <Skills />
+                <Footer />
             </ThemeProvider>
         </Router>
     )

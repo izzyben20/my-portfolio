@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <Section nopadding id='projects'>
             <SectionDivider />
-            <SectionTitle>Projects</SectionTitle>
+            <SectionTitle>&#60;Projects &frasl;&#62;</SectionTitle>
             <GridContainer>
                 {projects.map((project) => (
                     <BlogCard key={project.id}>
