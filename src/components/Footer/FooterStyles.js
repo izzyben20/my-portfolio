@@ -12,6 +12,7 @@ export const FooterContainer = styled.footer`
 
     p {
         margin-bottom: 1rem;
+        color: rgba(255, 255, 255, 0.5);
     }
 `;
 
@@ -28,6 +29,7 @@ export const SocialIcons = styled(Link)`
   color: white;
   border-radius: 50px;
   padding: 8px;
+  size: 8rem;
   
   &:hover {
     background-color: #212d45;

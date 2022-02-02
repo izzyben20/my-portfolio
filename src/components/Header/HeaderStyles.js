@@ -14,7 +14,7 @@ export const NavContainer = styled.nav`
   left: 0;
   right: 0;
   z-index: 10;
-  box-shadow: .5px .5px 10px rgba(80, 78, 78, 0.5);
+  box-shadow: .5px .5px 7px rgba(80, 78, 78, 0.5);
 `;
 
 
@@ -90,7 +90,17 @@ export const MobileIcon = styled.div`
     font-size: 2.5rem;
     cursor: pointer;
     color: #fff;
+    transition: 0.3s ease;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: #212d45;
+
+    &:hover {
+    
+    transform: scale(1.1);
+    }
   }
+
 `;
 
 export const NavMenu = styled.ul`

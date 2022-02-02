@@ -19,7 +19,7 @@ const Footer = () => {
                 <AiFillTwitterCircle size='2.5rem' />
             </SocialIcons>
         </IconsContainer>
-        <p>All right reserved</p>
+        <p>Copyright &copy; {new Date().getFullYear()} Isaac Oyedele</p>
     </FooterContainer>
   );
 };

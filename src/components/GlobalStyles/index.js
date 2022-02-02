@@ -5,11 +5,13 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
+  background: ${(props) => props.contact ? "#212d45" : "transparent" };
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: ${(props) => props.contact ? "2rem" : "0" };;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -56,10 +58,11 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  text-align: justify;
+  padding-bottom: 1.5rem;
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
