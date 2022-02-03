@@ -7,12 +7,11 @@ export const FooterContainer = styled.footer`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
     margin-top: 7rem;
     box-shadow: .5px .5px 4px rgba(255, 255, 255, 0.5);
 
     p {
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
         color: rgba(255, 255, 255, 0.5);
     }
 `;

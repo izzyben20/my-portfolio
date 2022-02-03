@@ -35,13 +35,13 @@ const Header = () => {
 
                 <Div3>
                         <SocialIcons to='https://github.com'>
-                            <AiFillGithub size='2.5rem' />
+                            <AiFillGithub size='2.5rem' title='Github' />
                         </SocialIcons>
                         <SocialIcons to='https://linkedin.com'>
-                            <AiFillLinkedin size='2.5rem' />
+                            <AiFillLinkedin size='2.5rem' title='Linkedin'/>
                         </SocialIcons>
                         <SocialIcons to='https://twitter.com'>
-                            <AiFillMail size='2.5rem' />
+                            <AiFillMail size='2.5rem' title='Email'/>
                         </SocialIcons>
                 </Div3>
 
