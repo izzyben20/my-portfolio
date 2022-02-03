@@ -14,7 +14,7 @@ export const NavContainer = styled.nav`
   left: 0;
   right: 0;
   z-index: 10;
-  box-shadow: .5px .5px 7px rgba(80, 78, 78, 0.5);
+  box-shadow: .5px .5px 5px rgba(0,0,0, 0.5);
 `;
 
 

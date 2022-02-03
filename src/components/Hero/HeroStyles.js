@@ -33,7 +33,6 @@ export const LeftSection = styled.div`
     /* margin: 0 auto; */
   }
   @media ${(props) => props.theme.breakpoints.md} {
-    display: flex;
     margin: 0 auto;
   }
 `;

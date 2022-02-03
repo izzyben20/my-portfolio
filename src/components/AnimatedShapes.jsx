@@ -27,7 +27,7 @@ const Circle = styled.div`
   background-color: #ff97af;
   opacity: 0.2;
   position: absolute;
-  top: 20rem;
+  top: 30rem;
   left: -10rem;
   z-index: -2;
 

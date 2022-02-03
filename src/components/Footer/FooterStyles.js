@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    box-shadow: .5px .5px 6px rgba(80, 78, 78, 0.7);
+    box-shadow: .5px .5px 4px rgba(255, 255, 255, 0.5);
 
     p {
         margin-bottom: 1rem;
@@ -29,7 +29,7 @@ export const SocialIcons = styled(Link)`
   color: white;
   border-radius: 50px;
   padding: 8px;
-  size: 8rem;
+  size: ;
   
   &:hover {
     background-color: #212d45;
