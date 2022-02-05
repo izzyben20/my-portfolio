@@ -26,7 +26,8 @@ export const GridContainer = styled.section`
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(0,0,0, 0.8);
+  box-shadow: 3px 3px 20px rgba(0,0,0, 0.3);
+  background-color: #0F1629;
   text-align: center;
   width: 400px;
   object-fit: cover;
