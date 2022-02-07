@@ -45,6 +45,7 @@ export const Input = styled.input`
 
   &:focus {
     outline: none;
+    border-bottom: 2px solid blue;
   }
 
 `;
@@ -58,6 +59,7 @@ export const TextArea = styled.textarea`
 
   &:focus {
     outline: none;
+    border-bottom: 2px solid blue;
   }
 `;
 
@@ -67,11 +69,13 @@ export const Button = styled.input`
   background-color: darkblue;
   color: white;
   font-size: 1.5rem;
+  font-weight: bold;
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
   opacity: 0.7;
   max-width: 100px;
+  box-shadow: 3px 3px 10px rgba(0,0,0, 0.4);
 
   &:hover {
       opacity: 1;
