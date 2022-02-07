@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade, Slide } from 'react-reveal';
-import { Section, SectionDivider, SectionTitle } from '../GlobalStyles/index';
+import { Section, SectionDivider, SectionTitle, SectionText } from '../GlobalStyles/index';
 import { IconContainer, Skill } from './SkillsStyles';
 import { DiCss3, DiHtml5, DiReact, DiSass, DiGit } from 'react-icons/di'
 import { SiRedux, SiMaterialui, SiStyledcomponents, SiGithub, SiJavascript, SiBootstrap } from 'react-icons/si'
@@ -11,6 +11,11 @@ const Skills = () => {
           <Fade bottom cascade>
             <SectionDivider colorAlt/>
             <SectionTitle>&#60;Skills &amp; Technologies &frasl;&#62;</SectionTitle>
+          </Fade>
+          <Fade bottom>
+            <SectionText>
+              I'm constantly learning and keeping up to date with the latest technologies, so I can pick the best tech for the job.
+            </SectionText>
           </Fade>
           <IconContainer>
             <Slide bottom>

@@ -15,7 +15,7 @@ const Hero = () => {
                     <HeadingContainer>
                         <SectionText2>Hi, I'm Isaac Oyedele<span>&#128075;</span></SectionText2>
                         <Title main center>
-                            FRONTEND <br />
+                            A FRONTEND <br />
                             DEVELOPER
                         </Title>
                     </HeadingContainer>
