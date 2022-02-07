@@ -8,10 +8,10 @@ export const FooterContainer = styled.footer`
     align-items: center;
     flex-direction: column;
     margin-top: 7rem;
-    box-shadow: .5px .5px 4px rgba(255, 255, 255, 0.5);
+    box-shadow: 6px 2px 10px rgba(0, 0, 2, 0.7);
 
     p {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         color: rgba(255, 255, 255, 0.5);
     }
 `;

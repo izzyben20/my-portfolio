@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 const theme = {
     // Temp fonts
@@ -39,6 +40,7 @@ const App = () => {
                 <GlobalStyles />
                 <Header />
                 <Hero />
+                <About />
                 <Projects />
                 <Skills />
                 <Contact />
