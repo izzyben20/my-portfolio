@@ -1,18 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillMail } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import { animateScroll as scroll } from 'react-scroll';
 import { RiMenu3Line } from 'react-icons/ri';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu } from './HeaderStyles';
 
-const Header = () => {
+const Header = ({ toggle }) => {
+
     return (
-        <NavContainer>
-            <Fade top cascade>
-                <Div1>
-                    <Logo to='/'>
+        <Fade top cascade>
+            <NavContainer>
+                <Div1 onClick={() => scroll.scrollToTop()}>
+                    <Logo>
                         <DiCssdeck />
                         <Span>Isaac-Oyedele</Span>
                     </Logo>
@@ -20,16 +20,52 @@ const Header = () => {
 
                 <NavMenu>
                         <li>
-                            <Link to='about'><NavLink>About</NavLink></Link>
+                            <NavLink
+                                to="about"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
+                                About
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to='about'><NavLink>Projects</NavLink></Link>
+                            <NavLink
+                                to="projects"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
+                                Projects
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to='about'><NavLink>Skills</NavLink></Link>
+                            <NavLink
+                                to="skills"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
+                                Skills
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to='about'><NavLink>Contact</NavLink></Link>
+                            <NavLink
+                                to="contact"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
+                                Contact
+                            </NavLink>
                         </li>
                 </NavMenu>
 
@@ -46,10 +82,10 @@ const Header = () => {
                 </Div3>
 
                 <MobileIcon>
-                    <RiMenu3Line />
+                    <RiMenu3Line onClick={toggle} />
                 </MobileIcon>
-            </Fade>
-        </NavContainer>
+            </NavContainer>
+        </Fade>
     )
 }
 

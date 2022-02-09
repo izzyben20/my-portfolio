@@ -1,6 +1,5 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export const NavContainer = styled.nav`
   display: flex;
@@ -18,19 +17,15 @@ export const NavContainer = styled.nav`
 `;
 
 
-export const Logo = styled(Link)`
-  color: #fff;
+export const Logo = styled.div`
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2rem;
   display: flex;
+  color: #26a0da;
   align-items: center;
   margin-left: 2.4rem;
   text-decoration: none;
-  &.active {
-    border-bottom: 3px solid #01bf71;
-  }
-
 `;
 
 export const Container = styled.div`
@@ -94,10 +89,10 @@ export const MobileIcon = styled.div`
     border-radius: 50px;
     padding: 8px;
     background-color: #212d45;
+    margin-right: 1rem;
 
     &:hover {
-    
-    transform: scale(1.1);
+      transform: scale(1.1);
     }
   }
 
@@ -117,16 +112,24 @@ export const NavMenu = styled.ul`
 `;
 
 // Navigation Links
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   font-size: 1.8rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #26a0da;
   transition: 0.4s ease;
+  padding-bottom: 1.9rem;
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
   }
+
+  &.active {
+    color: #fff;
+    transform: translateY(2px);
+    border-bottom: 3px solid #26a0da;
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
@@ -136,7 +139,7 @@ export const NavLink = styled.a`
 
 export const SocialIcons = styled(Link)`
   transition: 0.3s ease;
-  color: white;
+  color: #26a0da;
   border-radius: 50px;
   padding: 8px;
   

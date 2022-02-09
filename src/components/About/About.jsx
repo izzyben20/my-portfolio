@@ -1,13 +1,14 @@
 import React from 'react';
+import { AiOutlineDownload } from 'react-icons/ai'
 import { Slide, Fade } from 'react-reveal';
 import { SectionDivider, SectionTitle, SectionText } from '../GlobalStyles/index';
-import { Section, FlexContainer, LeftSection, RightSection, Img } from './AboutStyles';
+import { Section, FlexContainer, LeftSection, RightSection, Img, Button } from './AboutStyles';
 import profile from './profile.PNG';
 
 const About = () => {
   return (
       <Slide bottom cascade>
-        <Section>
+        <Section id='about'>
             <SectionDivider colorAlt />
             <SectionTitle>&#60;About me &frasl;&#62;</SectionTitle>
             <FlexContainer>
@@ -25,8 +26,9 @@ const About = () => {
                         I develop websites with HTML, CSS and JavaScript. I have top skills in using design softwares like Figma, Adobe XD, Invision and PhotoShop; with prototype tools like Framer and Protopie. 
                         </SectionText>
                         <SectionText>
-                        Being a diligent, hardworking and result oriented lady, I always work towards achieving best result on each project I lay my hands on. 
+                        Being a diligent, hardworking and result oriented, I always work towards achieving best result on each project I lay my hands on. 
                         </SectionText>
+                        <Button href='' download> Resume  <AiOutlineDownload /> </Button>
                     </Fade>
                 </RightSection>
             </FlexContainer>

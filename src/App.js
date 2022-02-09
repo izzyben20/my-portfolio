@@ -9,6 +9,7 @@ import Skills from './components/Skills/Skills';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import SideBar from './components/Header/sideBar/SideBar';
 
 const theme = {
     // Temp fonts
@@ -34,11 +35,17 @@ const theme = {
   }
 
 const App = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
     return (
         <Router>
             <ThemeProvider theme={theme}>
                 <GlobalStyles />
-                <Header />
+                <SideBar toggle={toggle} isOpen={isOpen} />
+                <Header toggle={toggle} />
                 <Hero />
                 <About />
                 <Projects />

@@ -11,7 +11,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: ${(props) => props.contact ? "2rem" : "0" };;
+  margin-bottom: ${(props) => props.contact ? "2rem" : "0" };
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -32,7 +32,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, rgba(250, 250, 250, 0.8) 18.77%, #26a0da 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

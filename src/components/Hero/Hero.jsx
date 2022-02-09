@@ -1,15 +1,14 @@
 import React from 'react';
 
 import { SectionText, SectionText2 } from '../GlobalStyles/index';
-import Button from '../GlobalStyles/Button';
-import { LeftSection, RightSection, Container, Img, HeadingContainer, Title } from './HeroStyles';
+import { LeftSection, RightSection, Container, Img, HeadingContainer, Title, Button } from './HeroStyles';
 import AnimatedShapes from '../AnimatedShapes';
 import avatar from './avatar.png';
 import { Zoom } from 'react-reveal';
 
 const Hero = () => {
     return (
-        <Zoom bottom cascade>
+        // <Zoom bottom cascade>
             <Container nopadding >
                 <LeftSection>
                     <HeadingContainer>
@@ -29,7 +28,7 @@ const Hero = () => {
                     <Img src={avatar} alt='hero' />
                 </RightSection>
             </Container>
-        </Zoom>
+        // </Zoom>
     )
 }
 

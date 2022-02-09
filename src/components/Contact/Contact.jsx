@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <Slide bottom>
-      <Section contact>
+      <Section contact id='contact'>
           <SectionDivider colorAlt />
           <SectionTitle>&#60;Contact Me &frasl;&#62;</SectionTitle>
           <SectionText>Have a project or want to hire me? Do email me at <Span>isaacoyedele@hotmail.com</Span> or use the form below.</SectionText>

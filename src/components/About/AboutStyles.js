@@ -16,18 +16,18 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    padding: ${(props) => (props.nopadding ? '0' : '16px 16px 0')};
     width: calc(100vw - 32px);
   }
-`
+`;
 
 export const FlexContainer = styled.div`
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 4rem;
 
-    @media ${(props) => props.theme.breakpoints.md} {
+  @media ${(props) => props.theme.breakpoints.md} {
     flex-direction: column;
   }
 `;
@@ -60,8 +60,57 @@ export const RightSection = styled.div`
 
 export const Img = styled.img`
   width: 80%;
+  cursor: pointer;
+  filter: opacity(0.6);
+
+  &:hover {
+    filter: opacity(0.8);
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 60%;
   }
+`;
+
+export const Button = styled.a`
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  margin-bottom: 6rem;
+   padding: 20px 40px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   text-decoration: none
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #000;
+   border-radius: 10px;
+   display: block;
+   max-width: 180px;
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation: animateDown infinite 1.5s;
+
+   &:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @keyframes animateDown {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(5px);
+        }
+
+        60% {
+            transform: translateY(3px);
+        }
+    }
 `;

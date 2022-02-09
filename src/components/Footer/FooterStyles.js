@@ -14,6 +14,10 @@ export const FooterContainer = styled.footer`
         padding-bottom: 2rem;
         color: rgba(255, 255, 255, 0.5);
     }
+
+    @media ${(props) => props.theme.breakpoints.md} {
+      margin-top: 0;
+  }
 `;
 
 export const IconsContainer = styled.div`
@@ -26,7 +30,7 @@ export const IconsContainer = styled.div`
 
 export const SocialIcons = styled(Link)`
   transition: 0.3s ease;
-  color: white;
+  color: #26a0da;
   border-radius: 50px;
   padding: 8px;
   

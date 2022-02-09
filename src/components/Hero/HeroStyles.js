@@ -28,7 +28,7 @@ export const HeadingContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 5rem;
+    margin-top: 9rem;
 `;
 
 export const Title = styled.h2`
@@ -80,6 +80,7 @@ export const RightSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10rem 1rem 0 0;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
   }
@@ -96,5 +97,29 @@ export const Img = styled.img`
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 50%;
+  }
+`;
+
+export const Button = styled.button`
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  margin-bottom: 6rem;
+   padding: 20px 30px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #000;
+   border-radius: 10px;
+   display: block;
+   max-width: 170px;
+   border: none;
+   cursor: pointer;
+
+   &:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
   }
 `;

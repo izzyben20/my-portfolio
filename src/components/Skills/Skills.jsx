@@ -4,10 +4,11 @@ import { Section, SectionDivider, SectionTitle, SectionText } from '../GlobalSty
 import { IconContainer, Skill } from './SkillsStyles';
 import { DiCss3, DiHtml5, DiReact, DiSass, DiGit } from 'react-icons/di'
 import { SiRedux, SiMaterialui, SiStyledcomponents, SiGithub, SiJavascript, SiBootstrap } from 'react-icons/si'
+import AnimatedShapes from '../AnimatedShapes';
 
 const Skills = () => {
   return (
-      <Section>
+      <Section id='skills'>
           <Fade bottom cascade>
             <SectionDivider colorAlt/>
             <SectionTitle>&#60;Skills &amp; Technologies &frasl;&#62;</SectionTitle>
@@ -65,8 +66,12 @@ const Skills = () => {
               </Skill>
             </Slide>
           </IconContainer>
+          <AnimatedShapes />
       </Section>
   );
 };
 
 export default Skills;
+
+
+

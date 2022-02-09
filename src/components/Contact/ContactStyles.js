@@ -66,7 +66,7 @@ export const TextArea = styled.textarea`
 export const Button = styled.input`
   border: none;
   padding: 15px;
-  background-color: darkblue;
+  background-color: #26a0da;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
@@ -80,15 +80,9 @@ export const Button = styled.input`
   &:hover {
       opacity: 1;
   }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 5px;
-    font-size: 14px;
-  }
 `;
 
 export const Span = styled.span`
   color: #fff;
   text-decoration: underline cadetblue;
-  color: #945DD6;
 `;
