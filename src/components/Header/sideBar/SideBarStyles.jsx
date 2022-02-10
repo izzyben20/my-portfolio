@@ -5,11 +5,9 @@ import {
   SideBarWrapper,
   SideBarMenu,
   SideBarItem,
-  SideBtnWrap,
-  SideBarRouter,
   Icon,
   Container
-} from './SideBar.Styled';
+} from './SideBarStyles';
 
 const SideBar = ({ toggle, isOpen }) => {
   return (

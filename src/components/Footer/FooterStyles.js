@@ -29,10 +29,10 @@ export const IconsContainer = styled.div`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
-  color: #26a0da;
+  color: #26a1da;
   text-decoration: none;
   border-radius: 50px;
-  padding: 8px;
+  padding: 7px;
   
   &:hover {
     background-color: #212d45;
