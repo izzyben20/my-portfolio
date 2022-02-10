@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-scroll'
 
 export const Container = styled.section`
   display: flex;
@@ -10,6 +11,7 @@ export const Container = styled.section`
   position: relative;
   overflow: hidden;
   gap: 1.5rem;
+  margin-bottom: 10rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -83,6 +85,7 @@ export const RightSection = styled.div`
   margin: 10rem 1rem 0 0;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
+    display: none;
   }
   @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
@@ -100,10 +103,10 @@ export const Img = styled.img`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
   margin-bottom: 6rem;
-   padding: 20px 30px;
+   padding: 20px 15px;
    text-align: center;
    font-weight: bold;
    font-size: 18px;
@@ -113,7 +116,7 @@ export const Button = styled.button`
    box-shadow: 0 0 20px #000;
    border-radius: 10px;
    display: block;
-   max-width: 170px;
+   max-width: 150px;
    border: none;
    cursor: pointer;
 

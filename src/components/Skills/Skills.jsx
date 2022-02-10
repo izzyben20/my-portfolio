@@ -10,12 +10,12 @@ const Skills = () => {
   return (
       <Section id='skills'>
           <Fade bottom cascade>
-            <SectionDivider colorAlt/>
+            <SectionDivider/>
             <SectionTitle>&#60;Skills &amp; Technologies &frasl;&#62;</SectionTitle>
           </Fade>
           <Fade bottom>
             <SectionText>
-              I'm constantly learning and keeping up to date with the latest technologies, so I can pick the best tech for the job.
+              I'm constantly learning and keeping up to date with the latest technologies so I can pick the best tech for each job. Here are a few technologies I've been working with recently:
             </SectionText>
           </Fade>
           <IconContainer>

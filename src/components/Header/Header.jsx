@@ -70,13 +70,13 @@ const Header = ({ toggle }) => {
                 </NavMenu>
 
                 <Div3>
-                        <SocialIcons to='https://github.com'>
+                        <SocialIcons href='https://github.com/izzyben20'>
                             <AiFillGithub size='2.5rem' title='Github' />
                         </SocialIcons>
-                        <SocialIcons to='https://linkedin.com'>
+                        <SocialIcons href='https://linkedin.com/in/isaac-benjamin-b8928969'>
                             <AiFillLinkedin size='2.5rem' title='Linkedin'/>
                         </SocialIcons>
-                        <SocialIcons to='https://twitter.com'>
+                        <SocialIcons href='mailto:isaacoyedele@hotmail.com'>
                             <AiFillMail size='2.5rem' title='Email'/>
                         </SocialIcons>
                 </Div3>

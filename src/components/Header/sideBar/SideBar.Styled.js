@@ -24,7 +24,7 @@ export const Icon = styled.div`
   right: 2rem;
   font-size: 3rem;
   cursor: pointer;
-  color: #fff;
+  color: #26a0da;
   transition: 0.3s ease;
   border-radius: 100%;
   padding: 8px;
@@ -32,11 +32,12 @@ export const Icon = styled.div`
 
     &:hover {
       transform: scale(1.1);
+      color: #fff;
     }
 `;
 
 export const SideBarWrapper = styled.div`
-  color: #fff;
+  color: #26a0da;
 `;
 
 export const SideBarMenu = styled.ul`
@@ -58,7 +59,7 @@ export const SideBarItem = styled(Link)`
   list-style: none;
   text-decoration: none;
   transition: 0.2s ease-in-out;
-  color: rgba(255, 255, 255, 0.7);
+  color: #26a0da;
   cursor: pointer;
 
   &:hover {

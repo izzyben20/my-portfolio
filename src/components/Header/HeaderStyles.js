@@ -84,7 +84,7 @@ export const MobileIcon = styled.div`
     display: flex;
     font-size: 2.5rem;
     cursor: pointer;
-    color: #fff;
+    color: #26a0da;
     transition: 0.3s ease;
     border-radius: 50px;
     padding: 8px;
@@ -93,6 +93,7 @@ export const MobileIcon = styled.div`
 
     &:hover {
       transform: scale(1.1);
+      color: #fff;
     }
   }
 
@@ -126,7 +127,6 @@ export const NavLink = styled(Link)`
 
   &.active {
     color: #fff;
-    transform: translateY(2px);
     border-bottom: 3px solid #26a0da;
   }
 
@@ -137,8 +137,9 @@ export const NavLink = styled(Link)`
 
 // Social Icons 
 
-export const SocialIcons = styled(Link)`
+export const SocialIcons = styled.a`
   transition: 0.3s ease;
+  text-decoration: none;
   color: #26a0da;
   border-radius: 50px;
   padding: 8px;
@@ -147,6 +148,7 @@ export const SocialIcons = styled(Link)`
     background-color: #212d45;
     transform: scale(1.1);
     cursor: pointer;
+    color: #fff;
     
   }
 

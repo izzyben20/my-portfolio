@@ -73,10 +73,10 @@ export const Img = styled.img`
 `;
 
 export const Button = styled.a`
-  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
-  margin-bottom: 6rem;
-   padding: 20px 40px;
+   margin-bottom: 6rem;
+   padding: 15px 25px;
    text-align: center;
+   outline: 3px solid #26a8da; 
    font-weight: bold;
    font-size: 18px;
    text-decoration: none
@@ -84,33 +84,16 @@ export const Button = styled.a`
    background-size: 200% auto;
    color: white;            
    box-shadow: 0 0 20px #000;
-   border-radius: 10px;
+   border-radius: 8px;
    display: block;
-   max-width: 180px;
+   max-width: 155px;
    border: none;
    cursor: pointer;
    display: flex;
    justify-content: center;
    align-items: center;
-   animation: animateDown infinite 1.5s;
 
    &:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
+    outline: 4px solid #26a8da;
   }
-
-  @keyframes animateDown {
-        0%, 20%, 50%, 80%, 100% {
-            transform: translateY(0);
-        }
-
-        40% {
-            transform: translateY(5px);
-        }
-
-        60% {
-            transform: translateY(3px);
-        }
-    }
 `;

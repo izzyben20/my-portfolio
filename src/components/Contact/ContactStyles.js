@@ -66,7 +66,7 @@ export const TextArea = styled.textarea`
 export const Button = styled.input`
   border: none;
   padding: 15px;
-  background-color: #26a0da;
+  background-color: #26a9df;
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
@@ -83,6 +83,8 @@ export const Button = styled.input`
 `;
 
 export const Span = styled.span`
-  color: #fff;
-  text-decoration: underline cadetblue;
+   a {
+    color: #fff;
+    text-decoration: underline cadetblue;
+  }
 `;

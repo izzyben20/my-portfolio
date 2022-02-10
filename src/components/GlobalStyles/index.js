@@ -11,7 +11,7 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: ${(props) => props.contact ? "2rem" : "0" };
+  margin-bottom: ${(props) => props.contact ? "2rem" : "6rem" };
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -32,7 +32,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, rgba(250, 250, 250, 0.8) 18.77%, #26a0da 60.15%);
+  background: linear-gradient(121.57deg, rgba(250, 250, 250, 0.8) 18.77%, #26a0da 90.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -57,7 +57,6 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
-  max-width: 800px;
   font-size: 22px;
   line-height: 40px;
   font-weight: 300;
@@ -86,6 +85,10 @@ export const SectionText2 = styled.h4`
   margin-top: 14rem;
   margin-bottom: 0;
   color: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+
+  span {
+    color: #26a0da;
+  }
  
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -104,11 +107,7 @@ export const SectionDivider = styled.div`
   height: 6px;
   margin-bottom: 2rem;
   border-radius: 10px;
-  background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
-
-    margin: ${(props) => props.divider ? "4rem 0" : "" };
+  background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;

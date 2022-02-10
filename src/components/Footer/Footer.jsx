@@ -1,22 +1,21 @@
 import React from 'react';
 import { FooterContainer, SocialIcons, IconsContainer } from './FooterStyles';
 import { AiFillGithub, AiFillLinkedin, AiFillMail, AiFillTwitterCircle } from 'react-icons/ai';
-import { Fade } from 'react-reveal';
 
 const Footer = () => {
   return (
     <FooterContainer>
         <IconsContainer>
-            <SocialIcons to='https://github.com/izzyben20' >
-                <AiFillGithub size='2.5rem' title='Github'/>
+            <SocialIcons href='https://github.com/izzyben20'>
+                <AiFillGithub size='2.5rem' title='Github' />
             </SocialIcons>
-            <SocialIcons to='https://linkedin.com'>
+            <SocialIcons href='https://linkedin.com/in/isaac-benjamin-b8928969'>
                 <AiFillLinkedin size='2.5rem' title='Linkedin'/>
             </SocialIcons>
-            <SocialIcons to='https://twitter.com'>
-            <AiFillMail size='2.5rem' title='Email'/>
-                </SocialIcons>
-            <SocialIcons to='https://twitter.com'>
+            <SocialIcons href='mailto:isaacoyedele@hotmail.com'>
+                <AiFillMail size='2.5rem' title='Email'/>
+            </SocialIcons>
+            <SocialIcons href='https://twitter.com/izzyben0'>
                 <AiFillTwitterCircle size='2.5rem' title='Twitter'/>
             </SocialIcons>
         </IconsContainer>

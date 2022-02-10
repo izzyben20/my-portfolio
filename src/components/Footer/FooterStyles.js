@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
     background: #0F1626;
@@ -28,9 +27,10 @@ export const IconsContainer = styled.div`
   margin-top: 1rem;
 `;
 
-export const SocialIcons = styled(Link)`
+export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: #26a0da;
+  text-decoration: none;
   border-radius: 50px;
   padding: 8px;
   
@@ -38,6 +38,6 @@ export const SocialIcons = styled(Link)`
     background-color: #212d45;
     transform: scale(1.1);
     cursor: pointer;
-    
+    color: #fff; 
   }
 `;

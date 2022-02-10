@@ -9,7 +9,7 @@ const About = () => {
   return (
       <Slide bottom cascade>
         <Section id='about'>
-            <SectionDivider colorAlt />
+            <SectionDivider />
             <SectionTitle>&#60;About me &frasl;&#62;</SectionTitle>
             <FlexContainer>
                 <LeftSection>

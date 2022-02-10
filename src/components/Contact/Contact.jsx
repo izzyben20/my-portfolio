@@ -32,9 +32,9 @@ const Contact = () => {
   return (
     <Slide bottom>
       <Section contact id='contact'>
-          <SectionDivider colorAlt />
+          <SectionDivider />
           <SectionTitle>&#60;Contact Me &frasl;&#62;</SectionTitle>
-          <SectionText>Have a project or want to hire me? Do email me at <Span>isaacoyedele@hotmail.com</Span> or use the form below.</SectionText>
+          <SectionText>Have a project or want to hire me? Do email me at <Span><a href='mailto:isaacoyedele@hotmail.com'>isaacoyedele@hotmail.com</a> </Span> or use the form below.</SectionText>
           <FormContainer>
             <Form ref={formRef} onSubmit={sendEmail}>
               <InputContainer>
