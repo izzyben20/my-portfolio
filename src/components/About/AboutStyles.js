@@ -79,7 +79,6 @@ export const Button = styled.a`
    outline: 3px solid #26a8da; 
    font-weight: bold;
    font-size: 18px;
-   text-decoration: none
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
@@ -92,8 +91,23 @@ export const Button = styled.a`
    display: flex;
    justify-content: center;
    align-items: center;
+   animation: animateDown infinite 1.5s;
 
    &:hover {
     outline: 4px solid #26a8da;
   }
+
+  @keyframes animateDown {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+
+        40% {
+            transform: translateY(5px);
+        }
+
+        60% {
+            transform: translateY(3px);
+        }
+    }
 `;
