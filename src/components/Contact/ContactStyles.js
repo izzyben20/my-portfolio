@@ -17,6 +17,10 @@ export const Form = styled.form`
   display: flex;
   width: 80%;
   flex-direction: column;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+      width: 100%;
+    }
 `;
 
 export const InputContainer = styled.div`
@@ -25,16 +29,19 @@ export const InputContainer = styled.div`
   /* width: 100%; */
   gap: 2rem;
   margin-bottom: 2.5rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+        flex-direction: column;
+      
+    }
 `;
 
 export const LeftInput = styled.div`
   flex: 60%;
-  /* width: 100%; */
 `;
 
 export const RightInput = styled.div`
   flex: 50%;
-  /* width: 100%; */
 `;
 
 export const Input = styled.input`
@@ -51,7 +58,6 @@ export const Input = styled.input`
 `;
 
 export const TextArea = styled.textarea`
-  /* width: 100%; */
   height: 200px;
   padding: 1.2rem;
   border: none;
@@ -74,12 +80,16 @@ export const Button = styled.input`
   margin-top: 20px;
   cursor: pointer;
   opacity: 0.7;
-  max-width: 100px;
+  width: 100px;
   box-shadow: 3px 3px 10px rgba(0,0,0, 0.4);
 
   &:hover {
       opacity: 1;
   }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+      width: 100%;
+    }
 `;
 
 export const Span = styled.span`
