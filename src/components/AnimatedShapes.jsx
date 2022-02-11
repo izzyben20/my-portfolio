@@ -39,6 +39,28 @@ const Square2 = styled.div`
   }
 `;
 
+const Triangle = styled.div`
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  opacity: 0.2;
+  position: absolute;
+  top: -2rem;
+  right: 70rem;
+  z-index: -2;
+
+  animation: square 30s linear infinite;
+
+  @keyframes square {
+    to {
+      transform: translate(100vw, 100vh);
+    }
+  }
+`;
+
 const Circle = styled.div`
   width: 10rem;
   height: 10rem;
@@ -106,6 +128,7 @@ const AnimatedShapes = () => {
       <Circle />
       <Rectangle />
       <Circle2 />
+      <Triangle />
     </>
   );
 };

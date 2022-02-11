@@ -8,7 +8,7 @@ import { Zoom } from 'react-reveal';
 
 const Hero = () => {
     return (
-        // <Zoom bottom cascade>
+        <Zoom bottom cascade>
             <Container nopadding >
                 <LeftSection>
                     <HeadingContainer>
@@ -37,7 +37,7 @@ const Hero = () => {
                     <Img src={avatar} alt='hero' />
                 </RightSection>
             </Container>
-        // </Zoom>
+        </Zoom>
     )
 }
 
