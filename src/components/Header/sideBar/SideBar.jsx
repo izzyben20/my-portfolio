@@ -70,7 +70,7 @@ const SideBar = ({ toggle, isOpen }) => {
             download 
             style={{padding: '25px 20px', marginTop: '1.2rem'}}
           > 
-            Resume  
+            R&eacute;sum&eacute;  
             <AiOutlineDownload /> 
           </Button>
           <SocialIconsContainer>

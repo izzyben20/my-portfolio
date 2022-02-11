@@ -10,7 +10,7 @@ const About = () => {
       <Slide bottom cascade>
         <Section id='about'>
             <SectionDivider />
-            <SectionTitle>&#60;About me &frasl;&#62;</SectionTitle>
+            <SectionTitle>&#60;About Me &frasl;&#62;</SectionTitle>
             <FlexContainer>
                 <LeftSection>
                     <Fade bottom cascade>
@@ -29,7 +29,7 @@ const About = () => {
                         Being a diligent, hardworking and result oriented, I always work towards achieving best result on each project I lay my hands on. 
                         </SectionText>
                     </Fade>
-                    <Button href='' download> Resume  <AiOutlineDownload /> </Button>
+                    <Button href='' download> R&eacute;sum&eacute;  <AiOutlineDownload /> </Button>
                 </RightSection>
             </FlexContainer>
         </Section>
