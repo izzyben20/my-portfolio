@@ -18,7 +18,7 @@ const About = () => {
                     </Fade>
                 </LeftSection>
                 <RightSection>
-                <Fade bottom cascade>
+                    <Fade bottom cascade>
                         <SectionText>
                         I’m Isaac Oyedele, a professional and talented Product Designer with front end development skills. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I honed my skills at web development, technical writing, product design and SEO analytics. 
                         </SectionText>
@@ -28,8 +28,8 @@ const About = () => {
                         <SectionText>
                         Being a diligent, hardworking and result oriented, I always work towards achieving best result on each project I lay my hands on. 
                         </SectionText>
-                        <Button href='' download> Resume  <AiOutlineDownload /> </Button>
                     </Fade>
+                    <Button href='' download> Resume  <AiOutlineDownload /> </Button>
                 </RightSection>
             </FlexContainer>
         </Section>

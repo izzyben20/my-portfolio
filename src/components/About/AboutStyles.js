@@ -81,7 +81,7 @@ export const Button = styled.a`
    font-size: 18px;
    transition: 0.5s;
    background-size: 200% auto;
-   color: white;            
+   color: #26a8da;            
    box-shadow: 0 0 20px #000;
    border-radius: 8px;
    display: block;
@@ -95,6 +95,7 @@ export const Button = styled.a`
 
    &:hover {
     outline: 4px solid #26a8da;
+    color: #fff;
   }
 
   @keyframes animateDown {
