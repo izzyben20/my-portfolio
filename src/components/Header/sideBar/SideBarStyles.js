@@ -68,3 +68,8 @@ export const SideBarItem = styled(Link)`
     transform: scale(1.05);
   }
 `;
+
+export const SocialIconsContainer = styled.div`
+  display: flex;
+  margin-top: 2rem;
+`;

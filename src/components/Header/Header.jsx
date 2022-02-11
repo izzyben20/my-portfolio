@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
-import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillMail } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { animateScroll as scroll } from 'react-scroll';
 import { RiMenu3Line } from 'react-icons/ri';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu } from './HeaderStyles';
+import { Container, Div1, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu } from './HeaderStyles';
 
 const Header = ({ toggle }) => {
 
