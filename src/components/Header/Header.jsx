@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 import { animateScroll as scroll } from 'react-scroll';
 import { RiMenu3Line } from 'react-icons/ri';
-import { Container, Div1, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu } from './HeaderStyles';
+import { Container, Div1, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu, SpanLogo } from './HeaderStyles';
 
 const Header = ({ toggle }) => {
 
@@ -13,8 +13,7 @@ const Header = ({ toggle }) => {
             <NavContainer>
                 <Div1 onClick={() => scroll.scrollToTop()}>
                     <Logo>
-                        <DiCssdeck />
-                        <Span>Isaac-Oyedele</Span>
+                        <Span> <SpanLogo>IO</SpanLogo>IsaacDele</Span>
                     </Logo>
                 </Div1>
 

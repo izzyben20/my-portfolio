@@ -155,4 +155,12 @@ export const SocialIcons = styled.a`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: none;
   }
-`
+`;
+
+export const SpanLogo = styled.span`
+  border: 2px solid #26a0da;
+  padding: 4px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-right: 5px;
+`;
