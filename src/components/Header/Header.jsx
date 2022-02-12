@@ -73,7 +73,7 @@ const Header = ({ toggle }) => {
                         <SocialIcons href='https://github.com/izzyben20'>
                             <AiFillGithub size='2.5rem' title='Github' />
                         </SocialIcons>
-                        <SocialIcons href='https://linkedin.com/in/isaac-benjamin-b8928969'>
+                        <SocialIcons href='https://linkedin.com/in/isaac-oyedele'>
                             <AiFillLinkedin size='2.5rem' title='Linkedin'/>
                         </SocialIcons>
                         <SocialIcons href='mailto:isaacoyedele@hotmail.com'>
