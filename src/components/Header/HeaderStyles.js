@@ -28,23 +28,6 @@ export const Logo = styled.div`
   text-decoration: none;
 `;
 
-export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
-  padding: 1rem;
-  padding-top: 2rem;
-  justify-content: center;
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
-  }
-`;
 
 export const Span = styled.span`
     font-size: 2rem;
@@ -54,15 +37,6 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-`;
-
-export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
-  display: flex;
-  justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
-  }
 `;
 
 export const Div3 = styled.div`
@@ -139,7 +113,6 @@ export const NavLink = styled(Link)`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
-  text-decoration: none;
   color: #26a0da;
   border-radius: 50px;
   padding: 8px;
@@ -149,7 +122,6 @@ export const SocialIcons = styled.a`
     transform: scale(1.1);
     cursor: pointer;
     color: #fff;
-    
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -158,8 +130,10 @@ export const SocialIcons = styled.a`
 `;
 
 export const SpanLogo = styled.span`
-  border: 2px solid #26a0da;
+  border: 3px solid #26a0da;
   padding: 4px;
+  font-size: 14px;
+  font-weight: bold;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
   margin-right: 5px;

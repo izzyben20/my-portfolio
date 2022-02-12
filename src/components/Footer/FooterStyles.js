@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
     align-items: center;
     flex-direction: column;
     margin-top: 7rem;
-    box-shadow: 6px 2px 10px rgba(0, 0, 2, 0.7);
+    box-shadow: 6px 2px 10px rgba(0, 0, 2, 0.8);
 
     p {
         padding-bottom: 2rem;
@@ -30,7 +30,6 @@ export const IconsContainer = styled.div`
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: #26a1da;
-  text-decoration: none;
   border-radius: 50px;
   padding: 7px;
   

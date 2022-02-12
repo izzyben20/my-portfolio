@@ -37,9 +37,9 @@ export const LeftSection = styled.div`
   margin-top: 1rem;
   margin: 0 auto;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    /* margin: 0 auto; */
+    width: 95%;
   }
+
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 0 auto;
   }
@@ -69,6 +69,10 @@ export const Img = styled.img`
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: 60%;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
   }
 `;
 
