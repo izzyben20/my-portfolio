@@ -1,6 +1,6 @@
 import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectStyles';
-import { Section, SectionDivider, SectionTitle } from '../GlobalStyles/index';
+import { Section, SectionDivider, SectionTitle, SectionText } from '../GlobalStyles/index';
 import { projects } from '../constants/constants';
 import { Fade, Slide } from 'react-reveal';
 
@@ -11,6 +11,7 @@ const Projects = () => {
             <Slide bottom>
                 <SectionDivider />
                 <SectionTitle>&#60;Projects &frasl;&#62;</SectionTitle>
+                <SectionText>These are some of the projects I built to practice and get better at the technologies mentioned above</SectionText>
             </Slide>
             <GridContainer>
                 {projects.map((project) => (
