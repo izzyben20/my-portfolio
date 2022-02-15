@@ -44,6 +44,15 @@ export const projects = [
       visit: 'https://google.com',
       id: 4,
     },
+    {
+      title: 'TechJobs',
+      description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
+      image: '/images/6.png',
+      tags: ['React', 'Javascript', 'Styled-Components'],
+      source: 'https://google.com',
+      visit: 'https://google.com',
+      id: 5
+    }
   ];
   
   export const TimeLineData = [
