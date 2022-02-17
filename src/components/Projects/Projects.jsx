@@ -52,10 +52,10 @@ const Projects = () => {
                 </TagList>
                 <UtilityList>
                   <ExternalLinks href={visit}>
-                      <FiGithub size='2rem' title='Github repository' />
+                      <FiGithub size='2rem' title='Github' />
                   </ExternalLinks>
                   <ExternalLinks href={source}>
-                      <FiExternalLink size='2rem' title='visit website' />
+                      <FiExternalLink size='2rem' title='External Link' />
                   </ExternalLinks>
                 </UtilityList>
               </BlogCard>

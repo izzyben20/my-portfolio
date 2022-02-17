@@ -62,7 +62,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   text-align: justify;
   padding-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
