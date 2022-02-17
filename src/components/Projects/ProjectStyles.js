@@ -59,7 +59,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #d0bb51;
 `;
 
 export const Intro = styled.div`
@@ -80,10 +80,6 @@ export const CardInfo = styled.p`
     font-style: 2rem;
     line-height: 24px;
     text-align: justify;
-
-    @media ${(props) => props.theme.breakpoints.sm} {
-        padding:.3rem
-    }
 `;
 
 
