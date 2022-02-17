@@ -62,21 +62,10 @@ export const Hr = styled.hr`
   background: #d0bb51;
 `;
 
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`;
-
-
 export const CardInfo = styled.p`
     width: 100%;
     padding: 0 2rem;
-    color: #e4e6e7;
+    color: rgba(250, 250, 250, 0.8);
     font-style: 2rem;
     line-height: 24px;
     text-align: justify;
