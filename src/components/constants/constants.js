@@ -27,10 +27,10 @@ export const projects = [
       id: 2,
     },
     {
-      title: 'Unichat',
+      title: 'GPT-3',
       description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-      image: '/images/4.jpg',
-      tags: ['React', 'ChatEngine', 'Firebase'],
+      image: '/images/4.png',
+      tags: ['React', 'CSS'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 3,

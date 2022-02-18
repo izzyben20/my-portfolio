@@ -64,7 +64,7 @@ export const Img = styled.img`
   filter: opacity(0.6);
 
   &:hover {
-    filter: opacity(0.8);
+    filter: opacity(0.7);
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -98,7 +98,6 @@ export const Button = styled.a`
    animation: ${({ project }) => project ? '0.2s ease-in' : 'animateDown infinite 1.5s' };
 
    &:hover {
-    outline: 2.3px solid #26a8da;
     background: rgba(250, 250, 250, 0.1)
   }
 

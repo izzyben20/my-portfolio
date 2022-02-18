@@ -4,8 +4,13 @@ export const Img = styled.img`
     width:100%;
     height: 100%;
     overflow: hidden;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
     
-`
+`;
 
 export const GridContainer = styled.section`
     display: grid;

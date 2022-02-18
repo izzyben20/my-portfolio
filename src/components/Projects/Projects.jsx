@@ -68,7 +68,7 @@ const Projects = () => {
         </GridContainer>
         <Fade bottom>
           <ButtonContainer>
-            <Button project href='https://github.com/izzyben20'> Show More </Button>
+            <Button project href='https://github.com/izzyben20'> See More </Button>
           </ButtonContainer>
         </Fade>
       </Section>
