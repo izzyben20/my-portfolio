@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { SectionText, SectionText2 } from '../GlobalStyles/index';
 import { LeftSection, RightSection, Container, Img, HeadingContainer, Title, Button } from './HeroStyles';
 import AnimatedShapes from '../AnimatedShapes';
@@ -20,7 +19,7 @@ const Hero = () => {
                             </Title>
                         </HeadingContainer>
                         <SectionText>
-                            I craft solid and scalable frontend products, I'm passionate about bringing web application designs to life using code. I specialize in building the user interface of the web and creating exceptional, meaningful and seamless experience.
+                        I create dependable and scalable frontend solutions, I'm passionate about leveraging code to bring application designs to life. I specialize in building the user interface of the web and creating exceptional, meaningful and seamless experience to users.
                         </SectionText>
                         <Button
                             to="contact"

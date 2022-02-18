@@ -16,7 +16,7 @@ const Skills = () => {
           </Fade>
           <Fade bottom>
             <SectionText>
-              I'm constantly learning and keeping up to date with the latest technologies so I can pick the best tech for each job. Here are a few technologies I've been working with recently:
+              With a strong understanding of fundamental frontend technologies and extensive experience developing dynamic web components, I'm constantly learning and keeping up to date with the latest technologies so I can pick the best tech for each job. Here are a few technologies I've been working with recently:
             </SectionText>
           </Fade>
           <IconContainer>

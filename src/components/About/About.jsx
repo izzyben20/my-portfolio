@@ -20,13 +20,13 @@ const About = () => {
                 <RightSection>
                     <Fade bottom cascade>
                         <SectionText>
-                        I’m Isaac Oyedele, a professional and talented Product Designer with front end development skills. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. I honed my skills at web development, technical writing, product design and SEO analytics. 
+                        Hello! My name is Isaac Oyedele. <br />
+                        I'm a frontend developer that enjoys merging well-structured code with nice interfaces and seamless performance. I use HTML, CSS, Javascript, and React to create web and mobile solutions. I'm a smart and creative professional, passionate about developing Tech solutions for every end users. 
                         </SectionText>
                         <SectionText>
-                        I develop websites with HTML, CSS and JavaScript. I have top skills in using design softwares like Figma, Adobe XD, Invision and PhotoShop; with prototype tools like Framer and Protopie. 
+                        I am committed to excellence, collaboration and teamwork and I am enthusiastic about using my engineering background to solve complex challenges and create enjoyable experiences. Learning new and better ways of doing things and writing efficient codes are two of my favorite things to accomplish. 
                         </SectionText>
-                        <SectionText>
-                        Being a diligent, hardworking and result oriented, I always work towards achieving best result on each project I lay my hands on. 
+                        <SectionText>As a conscientious, industrious, and results-oriented individual, I strive to achieve the greatest possible outcome on everything I do.
                         </SectionText>
                     </Fade>
                     <Button href='' download> R&eacute;sum&eacute;  <AiOutlineDownload /> </Button>
