@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { animateScroll as scroll } from 'react-scroll';

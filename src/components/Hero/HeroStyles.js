@@ -34,9 +34,10 @@ export const HeadingContainer = styled.div`
 `;
 
 export const Title = styled.h2`
-  font-weight: 800;
+  font-weight: 900;
   font-size: 55px;
   line-height: 60px;
+  letter-spacing: 12px;
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);

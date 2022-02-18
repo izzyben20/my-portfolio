@@ -12,13 +12,13 @@ const Hero = () => {
                 <Container nopadding >
                     <LeftSection>
                         <HeadingContainer>
-                            <SectionText2>Hi, I'm <span>Isaac Oyedele</span>&#128075;</SectionText2>
+                            <SectionText2>Hi, I'm <span>Isaac Oyedele</span>&#128075;,</SectionText2>
                             <Title main center>
                                 A FRONTEND <br />
-                                DEVELOPER
+                                DEVELOPER.
                             </Title>
                         </HeadingContainer>
-                        <SectionText>
+                        <SectionText main>
                         I create dependable and scalable frontend solutions, I'm passionate about leveraging code to bring application designs to life. I specialize in building the user interface of the web and creating exceptional, meaningful and seamless experience to users.
                         </SectionText>
                         <Button

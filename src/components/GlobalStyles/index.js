@@ -57,7 +57,7 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionText = styled.p`
-  font-size: 22px;
+  font-size: ${({ main }) => main ? '22px' : '20px'};
   line-height: 40px;
   font-weight: 300;
   text-align: justify;

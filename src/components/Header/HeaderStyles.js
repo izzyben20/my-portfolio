@@ -21,6 +21,8 @@ export const Logo = styled.div`
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2rem;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
   display: flex;
   color: #26a0da;
   align-items: center;
