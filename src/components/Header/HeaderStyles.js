@@ -94,13 +94,13 @@ export const NavLink = styled(Link)`
   transition: 0.4s ease;
   padding-bottom: 1.9rem;
   &:hover {
-    color: #fff;
+    color: rgba(250, 250, 250, 0.8);
     opacity: 1;
     cursor: pointer;
   }
 
   &.active {
-    color: #fff;
+    color: rgba(250, 250, 250, 0.8);
     border-bottom: 3px solid #26a0da;
   }
 

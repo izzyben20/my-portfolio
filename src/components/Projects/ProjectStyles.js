@@ -90,8 +90,17 @@ export const TagList = styled.ul`
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-`
+`;
 export const Tag = styled.li`
     color: #9cc9e3;
     font-size: 1.5rem;
-`
+`;
+
+export const ButtonContainer = styled.div`
+  display: grid;
+  place-content: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-top: 2.5rem;
+  }
+`;

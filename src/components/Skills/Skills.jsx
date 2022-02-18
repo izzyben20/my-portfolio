@@ -8,6 +8,7 @@ import AnimatedShapes from '../AnimatedShapes';
 
 const Skills = () => {
   return (
+    <div style={{position: 'relative'}}>
       <Section id='skills'>
           <Fade bottom cascade>
             <SectionDivider/>
@@ -66,8 +67,9 @@ const Skills = () => {
               </Skill>
             </Slide>
           </IconContainer>
-          <AnimatedShapes />
       </Section>
+      <AnimatedShapes />
+    </div>
   );
 };
 

@@ -80,8 +80,8 @@ export const Button = styled.a`
    margin-bottom: 6rem;
    padding: 15px 25px;
    text-align: center;
-   outline: 3px solid #26a8da; 
-   font-weight: bold;
+   outline: 2px solid #26a8da; 
+   font-weight: ${({ project }) => project ? '' : 'bold'};
    font-size: 18px;
    transition: 0.5s;
    background-size: 200% auto;
@@ -95,11 +95,11 @@ export const Button = styled.a`
    display: flex;
    justify-content: center;
    align-items: center;
-   animation: animateDown infinite 1.5s;
+   animation: ${({ project }) => project ? '0.2s ease-in' : 'animateDown infinite 1.5s' };
 
    &:hover {
-    outline: 4px solid #26a8da;
-    color: #fff;
+    outline: 2.3px solid #26a8da;
+    background: rgba(250, 250, 250, 0.1)
   }
 
   @keyframes animateDown {

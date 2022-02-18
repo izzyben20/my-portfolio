@@ -5,7 +5,7 @@ const Square = styled.div`
   width: 6rem;
   height: 6rem;
   background-color: #4e6bff;
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: -6rem;
   left: -6rem;
@@ -24,7 +24,7 @@ const Square2 = styled.div`
   width: 6rem;
   height: 6rem;
   background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: 1rem;
   left: -6rem;
@@ -46,7 +46,7 @@ const Triangle = styled.div`
   border-right: 25px solid transparent;
   border-bottom: 50px solid red;
   background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: -2rem;
   right: 70rem;
@@ -62,11 +62,11 @@ const Triangle = styled.div`
 `;
 
 const Circle = styled.div`
-  width: 10rem;
-  height: 10rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   background-color: #ff97af;
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: 30rem;
   left: -10rem;
@@ -86,7 +86,7 @@ const Circle2 = styled.div`
   height: 5rem;
   border-radius: 50%;
   background-color: rgba(250,250,250, 0.5);
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: 60rem;
   left: -10rem;
@@ -105,7 +105,7 @@ const Rectangle = styled.div`
   width: 10rem;
   height: 5rem;
   background-color: #669966;
-  opacity: 0.2;
+  opacity: 0.1;
   position: absolute;
   top: 40rem;
   left: -5rem;

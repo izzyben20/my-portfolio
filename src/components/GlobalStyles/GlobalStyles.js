@@ -9,11 +9,14 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+  
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
+    scrollbar-width: thin;
+    scrollbar-color: #26a0da;
   }
+
   body {
     font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;
@@ -22,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
     overflow-x: hidden;
   }
+
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
   }

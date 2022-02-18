@@ -3,7 +3,7 @@ export const projects = [
       title: 'CryptoHub',
       description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application.",
         image: '/images/1.png',
-        tags: ['React', 'RTK Query', 'Ant Design'],
+        tags: ['React', 'RTK Query', 'Ant Design', 'Chart-js'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 0,
@@ -12,7 +12,7 @@ export const projects = [
       title: 'Portfolio-App',
       description:"This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application.",
       image: '/images/2.png',
-      tags: ['React', 'Styled-Components', 'React-Scroll'],
+      tags: ['React', 'Styled Components', 'React-Scroll'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 1,
@@ -21,7 +21,7 @@ export const projects = [
       title: 'Budget App',
       description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application.",
         image: '/images/3.png',
-        tags: ['React', 'Context Api', 'MUI', 'Javascript'],
+        tags: ['React', 'Context Api', 'MUI', 'Chart-js'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 2,
@@ -48,17 +48,9 @@ export const projects = [
       title: 'TechJobs',
       description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
       image: '/images/6.png',
-      tags: ['React', 'Javascript', 'Styled-Components'],
+      tags: ['React', 'Javascript', 'Styled Components'],
       source: 'https://google.com',
       visit: 'https://google.com',
       id: 5
     }
-  ];
-  
-  export const TimeLineData = [
-    { year: 2017, text: 'Started my journey', },
-    { year: 2018, text: 'Worked as a freelance developer', },
-    { year: 2019, text: 'Founded JavaScript Mastery', },
-    { year: 2020, text: 'Shared my projects with the world', },
-    { year: 2021, text: 'Started my own platform', },
   ];

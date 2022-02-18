@@ -73,9 +73,9 @@ export const Button = styled.input`
   border: none;
   padding: 15px;
   background-color: #26a9df;
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 400;
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Slide } from 'react-reveal';
+import { Fade } from 'react-reveal';
 import { Section, SectionText, SectionTitle, SectionDivider } from '../GlobalStyles/index';
 import { FormContainer, Form, InputContainer, LeftInput, RightInput, Span, Input, TextArea, Button } from './ContactStyles';
 
@@ -30,11 +30,11 @@ const Contact = () => {
   };
 
   return (
-    <Slide bottom>
+    <Fade bottom>
       <Section contact id='contact'>
           <SectionDivider />
           <SectionTitle>&#60;Contact Me &frasl;&#62;</SectionTitle>
-          <SectionText>Have a project or want to hire me? Do email me at <Span><a href='mailto:isaacoyedele@hotmail.com'>isaacoyedele@hotmail.com</a> </Span> or use the form below.</SectionText>
+          <SectionText>Have a project or want to hire me? Do email me at <Span><a href='mailto:isaacoyedele@hotmail.com'>isaacoyedele@hotmail.com</a> </Span> or use the form below, I'm open to working full-time, freelance or contract frontend position.</SectionText>
           <FormContainer>
             <Form ref={formRef} onSubmit={sendEmail}>
               <InputContainer>
@@ -51,7 +51,7 @@ const Contact = () => {
             </Form>
           </FormContainer>
       </Section>
-    </Slide>
+    </Fade>
   );
 };
 
