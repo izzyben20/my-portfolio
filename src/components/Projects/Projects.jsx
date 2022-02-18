@@ -54,10 +54,10 @@ const Projects = () => {
                     ))}
                   </TagList>
                   <UtilityList>
-                    <ExternalLinks href={visit}>
+                    <ExternalLinks href={source}>
                         <FiGithub size='2rem' title='Github' />
                     </ExternalLinks>
-                    <ExternalLinks href={source}>
+                    <ExternalLinks href={visit}>
                         <FiExternalLink size='2rem' title='External Link' />
                     </ExternalLinks>
                   </UtilityList>
