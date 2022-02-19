@@ -9,7 +9,7 @@ const About = () => {
   return (
       <Slide bottom cascade>
         <Section id='about'>
-            <SectionDivider />
+            {/* <SectionDivider /> */}
             <SectionTitle>&#60;About Me &frasl;&#62;</SectionTitle>
             <FlexContainer>
                 <LeftSection>
@@ -20,8 +20,7 @@ const About = () => {
                 <RightSection>
                     <Fade bottom cascade>
                         <SectionText>
-                        Hello! My name is Isaac Oyedele. <br />
-                        I'm a frontend developer that enjoys merging well-structured code with nice interfaces and seamless performance. I use HTML, CSS, Javascript, and React to create web and mobile solutions. I'm a smart and creative professional, passionate about developing Tech solutions for every end users. 
+                        Hello! My name is Isaac Oyedele and I enjoy building things with code. I'm a frontend developer that enjoys merging well-structured code with nice interfaces and seamless performance. I use HTML, CSS, Javascript, and React to create web and mobile solutions. I'm a smart and creative professional, passionate about developing Tech solutions for every end users. 
                         </SectionText>
                         <SectionText>
                         I am committed to excellence, collaboration and teamwork and I am enthusiastic about using my engineering background to solve complex challenges and create enjoyable experiences. Learning new and better ways of doing things and writing efficient codes are two of my favorite things to accomplish. 
