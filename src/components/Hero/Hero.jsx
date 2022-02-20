@@ -8,7 +8,7 @@ import { Fade } from 'react-reveal';
 const Hero = () => {
     return (
         <Fade bottom cascade>
-            <>
+            <div>
                 <Container nopadding >
                     <LeftSection>
                         <HeadingContainer>
@@ -33,11 +33,11 @@ const Hero = () => {
                         </Button>
                     </LeftSection>
                     <RightSection>
-                        <Img src={avatar} alt='hero' />
+                        <Img src={avatar} alt='hero img' />
                     </RightSection>
                 </Container>
                 <AnimatedShapes />
-            </>
+            </div>
         </Fade>
     )
 }

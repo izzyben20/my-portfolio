@@ -34,7 +34,7 @@ const Contact = () => {
       <Section contact id='contact'>
           <SectionDivider />
           <SectionTitle>&#60;Contact Me &frasl;&#62;</SectionTitle>
-          <SectionText>Have a project or want to hire me? Do email me at <Span><a href='mailto:isaacoyedele@hotmail.com'>isaacoyedele@hotmail.com</a> </Span> or use the form below, I'm open to working full-time, freelance or contract frontend position.</SectionText>
+          <SectionText>Have a project or want to hire me? Do email me at <Span><a href='mailto:isaacoyedele2@gmail.com'>isaacoyedele2@gmail.com</a> </Span> or use the form below, I'm open to working full-time, freelance or contract frontend position.</SectionText>
           <FormContainer>
             <Form ref={formRef} onSubmit={sendEmail}>
               <InputContainer>

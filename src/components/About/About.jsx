@@ -9,7 +9,7 @@ const About = () => {
   return (
       <Slide bottom cascade>
         <Section id='about'>
-            {/* <SectionDivider /> */}
+            <SectionDivider />
             <SectionTitle>&#60;About Me &frasl;&#62;</SectionTitle>
             <FlexContainer>
                 <LeftSection>

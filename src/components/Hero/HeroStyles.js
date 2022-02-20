@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 export const Container = styled.section`
   display: flex;
   flex-direction: row;
+  height: 100vh;
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
@@ -30,7 +31,7 @@ export const HeadingContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 9rem;
+    margin-top: 8rem;
 `;
 
 export const Title = styled.h2`
@@ -67,7 +68,7 @@ export const LeftSection = styled.div`
   flex: 70%;
   flex-direction: column;
   display: flex;
-  margin-top: 6rem;
+  margin-top: 4rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     /* margin: 0 auto; */
@@ -83,7 +84,7 @@ export const RightSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10rem 1rem 0 0;
+  margin: 12rem 1rem 0 0;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: none;
@@ -106,7 +107,6 @@ export const Img = styled.img`
 
 export const Button = styled(Link)`
   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
-  margin-bottom: 6rem;
    padding: 20px 15px;
    text-align: center;
    font-weight: bold;

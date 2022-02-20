@@ -74,7 +74,7 @@ const Header = ({ toggle }) => {
                         <SocialIcons href='https://linkedin.com/in/isaac-oyedele'>
                             <AiFillLinkedin size='2.5rem' title='Linkedin'/>
                         </SocialIcons>
-                        <SocialIcons href='mailto:isaacoyedele@hotmail.com'>
+                        <SocialIcons href='mailto:isaacoyedele2@gmail.com'>
                             <AiFillMail size='2.5rem' title='Email'/>
                         </SocialIcons>
                 </Div3>

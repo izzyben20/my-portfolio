@@ -6,23 +6,20 @@ export const NavContainer = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  background: ${({ scrollNav}) => scrollNav ? 'transparent' : '#0F1629'};
+  background: ${({ scrollNav }) => (scrollNav ? 'transparent' : '#0F1629')};
   padding: 1rem;
   padding-top: 2rem;
   position: fixed;
   left: 0;
   right: 0;
   z-index: 10;
-  box-shadow: .5px .5px 5px rgba(0,0,0, 0.4);
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.4);
 `;
-
 
 export const Logo = styled.div`
   justify-self: flex-start;
   cursor: pointer;
   font-size: 2rem;
-  font-family: 'Permanent Marker', cursive;
-  text-transform: uppercase;
   display: flex;
   color: #26a0da;
   align-items: center;
@@ -30,9 +27,8 @@ export const Logo = styled.div`
   text-decoration: none;
 `;
 
-
 export const Span = styled.span`
-    font-size: 2rem;
+  font-size: 2rem;
 `;
 
 export const Div1 = styled.div`
@@ -72,7 +68,6 @@ export const MobileIcon = styled.div`
       color: #fff;
     }
   }
-
 `;
 
 export const NavMenu = styled.ul`
@@ -111,14 +106,14 @@ export const NavLink = styled(Link)`
   }
 `;
 
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: #26a0da;
   border-radius: 50px;
   padding: 8px;
-  
+
   &:hover {
     background-color: #212d45;
     transform: scale(1.1);
@@ -135,6 +130,7 @@ export const SpanLogo = styled.span`
   border: 3px solid #26a0da;
   padding: 4px;
   font-size: 14px;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   border-top-left-radius: 12px;
   border-bottom-right-radius: 12px;
