@@ -34,7 +34,7 @@ const Projects = () => {
           <SectionTitle>&#60;Projects &frasl;&#62;</SectionTitle>
           <SectionText>
             These are some of the projects I built to practice and get better at
-            the technologies mentioned above
+            the technologies mentioned above. With a strong understanding of fundamental frontend technologies and extensive experience developing dynamic web components, I'm constantly learning and keeping up to date with the latest technologies so I can pick the best tech for each job. Here are a few technologies I've been working with recently:
           </SectionText>
         </Slide>
         <GridContainer>

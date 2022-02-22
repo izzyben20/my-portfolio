@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: 'CryptoHub',
-      description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application.",
+      description: "CryptoHub is  cryptocurrency website where to find information about anything crypto. This website was built using React, Redux toolkit, RTK-Query and Ant design. ",
         image: '/images/1.png',
         tags: ['React', 'RTK Query', 'Ant Design', 'Chart-js'],
       source: 'https://github.com/izzyben20/cryptohub.git',

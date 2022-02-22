@@ -40,7 +40,7 @@ export const BlogCard = styled.div`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
   }
   
