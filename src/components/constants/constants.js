@@ -52,5 +52,23 @@ export const projects = [
       source: 'https://github.com/izzyben20/tech_jobs.git',
       visit: 'https://google.com',
       id: 5
+    },
+    {
+      title: 'Tesla-Clone',
+      description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
+      image: '/images/7.png',
+      tags: ['React', 'Styled Components'],
+      source: 'https://github.com/izzyben20/tech_jobs.git',
+      visit: 'https://google.com',
+      id: 6
+    },
+    {
+      title: 'eCash',
+      description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
+      image: '/images/9.png',
+      tags: ['React', 'Styled Components', 'React-Router'],
+      source: 'https://github.com/izzyben20/tech_jobs.git',
+      visit: 'https://google.com',
+      id: 7
     }
   ];

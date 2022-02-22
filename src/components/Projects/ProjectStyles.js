@@ -37,6 +37,12 @@ export const BlogCard = styled.div`
   object-fit: cover;
   position: relative;
   padding-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }
   
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;

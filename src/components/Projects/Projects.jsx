@@ -41,6 +41,7 @@ const Projects = () => {
           {projects.map(
             ({ id, image, title, description, tags, visit, source }) => (
               <Fade bottom cascade>
+                <>
                 <BlogCard key={id}>
                   <Img src={image} alt="project img" />
                   <TitleContent>
@@ -62,6 +63,7 @@ const Projects = () => {
                     </ExternalLinks>
                   </UtilityList>
                 </BlogCard>
+                </>
               </Fade>
             )
           )}
