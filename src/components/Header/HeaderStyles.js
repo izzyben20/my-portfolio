@@ -99,6 +99,7 @@ export const NavLink = styled(Link)`
   &.active {
     color: rgba(250, 250, 250, 0.8);
     border-bottom: 3px solid #26a0da;
+    transform: translateY(2px);
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
