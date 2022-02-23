@@ -58,7 +58,7 @@ export const projects = [
       description: "This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
       image: '/images/7.png',
       tags: ['React', 'Styled Components'],
-      source: 'https://github.com/izzyben20/tech_jobs.git',
+      source: 'https://github.com/izzyben20/tesla-clone.git',
       visit: 'https://google.com',
       id: 6
     },
