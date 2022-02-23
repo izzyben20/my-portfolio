@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <Fade bottom cascade>
             <div>
-                <Container nopadding >
+                <Container >
                     <LeftSection>
                         <HeadingContainer>
                             <SectionText2>Hi, I'm <span>Isaac Oyedele</span>&#128075;,</SectionText2>

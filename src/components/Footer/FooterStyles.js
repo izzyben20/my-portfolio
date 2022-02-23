@@ -12,6 +12,10 @@ export const FooterContainer = styled.footer`
     p {
         padding-bottom: 2rem;
         color: rgba(255, 255, 255, 0.6);
+
+        @media ${(props) => props.theme.breakpoints.sm} {
+          font-size: 14px;
+        }
     }
 
     @media ${(props) => props.theme.breakpoints.md} {

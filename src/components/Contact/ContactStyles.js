@@ -15,7 +15,7 @@ export const FormContainer = styled.div`
 export const Form = styled.form`
   min-height: 300px;
   display: flex;
-  width: 80%;
+  width: 90%;
   flex-direction: column;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -47,7 +47,7 @@ export const RightInput = styled.div`
 export const Input = styled.input`
   width: 100%;
   padding: 1.2rem;
-  background-color: rgba(250, 250, 250, 0.7);
+  background-color: rgba(250, 250, 250, 0.6);
   border: none;
 
   &:focus {
@@ -61,7 +61,7 @@ export const TextArea = styled.textarea`
   height: 200px;
   padding: 1.2rem;
   border: none;
-  background-color: rgba(250, 250, 250, 0.7);
+  background-color: rgba(250, 250, 250, 0.6);
 
   &:focus {
     outline: none;
