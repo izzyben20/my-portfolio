@@ -137,3 +137,4 @@ export const SpanLogo = styled.span`
   border-bottom-right-radius: 12px;
   margin-right: 5px;
 `;
+

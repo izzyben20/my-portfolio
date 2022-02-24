@@ -4,7 +4,6 @@ import { Link } from 'react-scroll'
 export const Container = styled.section`
   display: flex;
   flex-direction: row;
-  /* height: 100vh; */
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
@@ -127,4 +126,8 @@ export const Button = styled(Link)`
     color: #fff;
     text-decoration: none;
   }
+`;
+
+export const Ainime = styled.svg`
+  
 `;

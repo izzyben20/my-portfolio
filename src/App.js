@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router } from 'react-router-dom/';
 import GlobalStyles from './components/GlobalStyles/GlobalStyles';
@@ -11,9 +11,10 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import SideBar from './components/Header/sideBar/SideBar';
 import { theme } from './components/GlobalStyles/index';
+import BackgroundAnimation from './components/Hero/BackgroundAnimation';
 
 const App = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -30,6 +31,7 @@ const App = () => {
                 <Skills />
                 <Contact />
                 <Footer />
+                <BackgroundAnimation />
             </ThemeProvider>
         </Router>
     )
