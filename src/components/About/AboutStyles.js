@@ -80,7 +80,7 @@ export const Button = styled.a`
    margin-bottom: 6rem;
    padding: 15px 25px;
    text-align: center;
-   outline: 2px solid #26a8da; 
+   outline: 1.5px solid #26a8da; 
    font-weight: ${({ project }) => project ? '' : 'bold'};
    font-size: 18px;
    transition: 0.5s;
