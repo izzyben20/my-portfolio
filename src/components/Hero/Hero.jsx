@@ -6,12 +6,11 @@ import AnimatedShapes from '../AnimatedShapes';
 import avatar from './avatar.png';
 import { Fade } from 'react-reveal';
 import BackgroundAnimation from './BackgroundAnimation';
-import back from './back.svg';
 import svg from './svg.svg';
 
 const Hero = () => {
     const svgString = encodeURIComponent(renderToStaticMarkup(<BackgroundAnimation />));
-    
+
     return (
         <Fade bottom cascade>
             <div style={{backgroundImage: `url(${svg})`}}>

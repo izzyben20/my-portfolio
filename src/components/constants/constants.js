@@ -37,7 +37,7 @@ export const projects = [
     },
     {
       title: 'TechJobs',
-      description: "TechJobs is a This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application",
+      description: "TechJobs is a job listing landing page for techies, built with react and styled components This is a web quiz app that was built with react and redux was used for state management.",
       image: '/images/6.png',
       tags: ['React', 'Javascript', 'Styled Components'],
       source: 'https://github.com/izzyben20/tech_jobs.git',
