@@ -1,10 +1,5 @@
-<svg
-      className="BgAnimation__svg"
-      viewBox="0 0 602 602"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g opacity="0.15">
+<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 602 602" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.15">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -354,4 +349,4 @@
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+</svg>

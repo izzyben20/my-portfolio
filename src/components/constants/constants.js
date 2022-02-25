@@ -28,7 +28,7 @@ export const projects = [
     },
     {
       title: 'Quiz-App',
-      description: "This web quiz app built with react and redux enable users to practice for multiple choice test or true/false test, it shows progress feedback during quiz play, and at the end, the app also shows the result.",
+      description: "This web quiz app built with react and redux enable users to practice multiple choice or true/false test, it shows progress feedback during quiz play, and at the end, the app also shows the result.",
       image: '/images/5.png',
       tags: ['React', 'Redux', 'MUI', 'API'],
       source: 'https://github.com/izzyben20/quiz-app.git',

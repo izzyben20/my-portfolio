@@ -30,7 +30,7 @@ export const HeadingContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 8rem;
+    /* margin-top: 3rem; */
 `;
 
 export const Title = styled.h2`
