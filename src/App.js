@@ -11,7 +11,6 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import SideBar from './components/Header/sideBar/SideBar';
 import { theme } from './components/GlobalStyles/index';
-import BackgroundAnimation from './components/Hero/BackgroundAnimation';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +30,6 @@ const App = () => {
                 <Skills />
                 <Contact />
                 <Footer />
-                <BackgroundAnimation />
             </ThemeProvider>
         </Router>
     )
