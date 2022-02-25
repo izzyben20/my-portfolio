@@ -84,7 +84,7 @@ export const RightSection = styled.div`
   align-items: center;
   justify-content: center;
   margin: 12rem 1rem 0 0;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     width: 80%;
     display: none;
   }
