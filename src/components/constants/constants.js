@@ -64,7 +64,7 @@ export const projects = [
     },
     {
       title: 'Portfolio-App',
-      description:"This is a web quiz app that was built with react and redux was used for state management. In this video, we will create a full Realtime Chat Application.",
+      description:"Built this single page application for my portfolio with react, styled components and react scroll for smooth scrolling animation.This is a web quiz app that was built with react and redux was used for state management.",
       image: '/images/2.png',
       tags: ['React', 'Styled Components', 'React-Scroll'],
       source: 'https://github.com/izzyben20/my-portfolio.git',
