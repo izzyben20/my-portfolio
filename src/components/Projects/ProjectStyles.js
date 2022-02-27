@@ -105,7 +105,7 @@ export const TagList = styled.ul`
 export const Tag = styled.li`
     color: #9cc9e3;
     font-size: 1.5rem;
-    opacity: 0.8;
+    opacity: 0.5;
 `;
 
 export const ButtonContainer = styled.div`

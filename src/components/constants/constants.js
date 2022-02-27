@@ -19,7 +19,7 @@ export const projects = [
     },
     {
       title: 'GPT-3',
-      description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      description: "GPT-3 is a fictitious landing page for an AI company, this project feature some modern UI design and was originally a figma designed UI. This project was built with react and CSS.",
       image: '/images/4.png',
       tags: ['React', 'CSS'],
       source: 'https://github.com/izzyben20/gpt_figma_design.git',
@@ -37,7 +37,7 @@ export const projects = [
     },
     {
       title: 'TechJobs',
-      description: "TechJobs is a job listing landing page for techies, built with react and styled components This is a web quiz app that was built with react and redux was used for state management.",
+      description: "TechJobs is a job listing landing page for techies, built with react and styled components.",
       image: '/images/6.png',
       tags: ['React', 'Javascript', 'Styled Components'],
       source: 'https://github.com/izzyben20/tech_jobs.git',
@@ -55,7 +55,7 @@ export const projects = [
     },
     {
       title: 'Tesla-Clone',
-      description: "This is a clone website of the official Tesla page built with react and styled components. The page has similar sections which made duplicating these sections alot easier, this demonstrates the reusablity of react components.",
+      description: "This is a clone website of the official Tesla page. The page has similar sections which made duplicating these sections alot easier, this demonstrates the reusablity of react components.",
       image: '/images/7.png',
       tags: ['React', 'Styled Components'],
       source: 'https://github.com/izzyben20/tesla-clone.git',
@@ -64,7 +64,7 @@ export const projects = [
     },
     {
       title: 'Portfolio-App',
-      description:"Built this single page application for my portfolio with react, styled components and react scroll for smooth scrolling animation.This is a web quiz app that was built with react and redux was used for state management.",
+      description:"Built this single page application for my portfolio with react, styled components and react scroll for smooth scrolling animation.",
       image: '/images/2.png',
       tags: ['React', 'Styled Components', 'React-Scroll'],
       source: 'https://github.com/izzyben20/my-portfolio.git',
