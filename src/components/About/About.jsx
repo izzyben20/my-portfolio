@@ -9,7 +9,7 @@ import svg from './svg.svg';
 const About = () => {
   return (
       <Slide bottom cascade>
-        <div style={{backgroundImage: `url(${svg})`}}>
+        {/* <div style={{backgroundImage: `url(${svg})`}}> */}
             <Section id='about'>
                 <SectionDivider />
                 <SectionTitle>&#60;About Me &frasl;&#62;</SectionTitle>
@@ -34,7 +34,7 @@ const About = () => {
                     </RightSection>
                 </FlexContainer>
             </Section>
-        </div>
+        {/* </div> */}
       </Slide>
   );
 };
