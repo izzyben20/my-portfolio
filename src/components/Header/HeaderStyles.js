@@ -19,7 +19,7 @@ export const NavContainer = styled.nav`
 export const Logo = styled.div`
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   color: #26a0da;
   align-items: center;
@@ -85,7 +85,7 @@ export const NavMenu = styled.ul`
 
 // Navigation Links
 export const NavLink = styled(Link)`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 32px;
   color: #26a0da;
   transition: 0.4s ease;
