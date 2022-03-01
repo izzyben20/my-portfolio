@@ -97,7 +97,7 @@ export const SectionText2 = styled.h4`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
   }
 `
