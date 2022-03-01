@@ -7,8 +7,8 @@ const Square = styled.div`
   background-color: #4e6bff;
   opacity: 0.1;
   position: absolute;
-  top: -6rem;
-  left: -6rem;
+  top: 6rem;
+  left: 6rem;
   z-index: -2;
 
   animation: square 25s linear infinite;
@@ -27,7 +27,7 @@ const Square2 = styled.div`
   opacity: 0.1;
   position: absolute;
   top: 1rem;
-  left: -6rem;
+  left: 6rem;
   z-index: -2;
 
   animation: square 30s linear infinite;
@@ -48,8 +48,8 @@ const Triangle = styled.div`
   background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
   opacity: 0.1;
   position: absolute;
-  top: -2rem;
-  right: 70rem;
+  top: 2rem;
+  right: 40rem;
   z-index: -2;
 
   animation: square 30s linear infinite;
@@ -69,7 +69,7 @@ const Circle = styled.div`
   opacity: 0.1;
   position: absolute;
   top: 30rem;
-  left: -10rem;
+  left: 10rem;
   z-index: -2;
 
   animation: circle 25s linear infinite;
@@ -89,7 +89,7 @@ const Circle2 = styled.div`
   opacity: 0.1;
   position: absolute;
   top: 60rem;
-  left: -10rem;
+  left: 10rem;
   z-index: -2;
 
   animation: circle 25s linear infinite;
@@ -108,7 +108,7 @@ const Rectangle = styled.div`
   opacity: 0.1;
   position: absolute;
   top: 40rem;
-  left: -5rem;
+  left: 5rem;
   z-index: -2;
 
   animation: rectangle 25s linear infinite;

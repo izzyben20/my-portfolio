@@ -7,6 +7,7 @@ export const Container = styled.section`
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
+  height: 100%;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -24,7 +25,12 @@ export const HeadingContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 0;
-    /* margin-top: 3rem; */
+    justify-content: center;
+    margin-top: 4rem;
+
+    @media ${props => props.theme.breakpoints.sm}{
+      margin-top: 10rem;
+  }
 `;
 
 export const Title = styled.h2`
