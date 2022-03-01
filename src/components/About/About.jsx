@@ -4,12 +4,10 @@ import { Slide, Fade } from 'react-reveal';
 import { SectionDivider, SectionTitle, SectionText } from '../GlobalStyles/index';
 import { Section, FlexContainer, LeftSection, RightSection, Img, Button } from './AboutStyles';
 import profile from './profile.PNG';
-import svg from './svg.svg';
 
 const About = () => {
   return (
       <Slide bottom cascade>
-        {/* <div style={{backgroundImage: `url(${svg})`}}> */}
             <Section id='about'>
                 <SectionDivider />
                 <SectionTitle>&#60;About Me &frasl;&#62;</SectionTitle>
@@ -34,7 +32,6 @@ const About = () => {
                     </RightSection>
                 </FlexContainer>
             </Section>
-        {/* </div> */}
       </Slide>
   );
 };
