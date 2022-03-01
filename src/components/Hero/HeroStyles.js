@@ -17,7 +17,6 @@ export const Container = styled.section`
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 0;
     flex-direction: column;
-    height: 100vh;
   }
 `;
 
@@ -28,7 +27,7 @@ export const HeadingContainer = styled.div`
     justify-content: center;
 
     @media ${props => props.theme.breakpoints.sm}{
-      margin-top: 10rem;
+      margin-top: 8rem;
   }
 `;
 

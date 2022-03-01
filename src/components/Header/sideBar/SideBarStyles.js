@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 export const Container = styled.aside`
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: #0F1629;
   display: flex;

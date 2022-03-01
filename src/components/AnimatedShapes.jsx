@@ -1,6 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const Container = styled.section`
+  @media ${props => props.theme.breakpoints.md}{
+    display: none;
+  }
+`
+
 const Square = styled.div`
   width: 6rem;
   height: 6rem;
@@ -122,14 +128,14 @@ const Rectangle = styled.div`
 
 const AnimatedShapes = () => {
   return (
-    <>
+    <Container>
       <Square />
       <Square2 />
       <Circle />
       <Rectangle />
       <Circle2 />
       <Triangle />
-    </>
+    </Container>
   );
 };
 
