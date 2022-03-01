@@ -1,5 +1,4 @@
 import React from 'react';
-import { renderToStaticMarkup } from 'react-dom/server';
 import { SectionText, SectionText2 } from '../GlobalStyles/index';
 import { LeftSection, RightSection, Container, Img, HeadingContainer, Title, Button } from './HeroStyles';
 import AnimatedShapes from '../AnimatedShapes';
@@ -9,7 +8,6 @@ import BackgroundAnimation from './BackgroundAnimation';
 import svg from './svg.svg';
 
 const Hero = () => {
-    const svgString = encodeURIComponent(renderToStaticMarkup(<BackgroundAnimation />));
 
     return (
         <Fade bottom cascade>
