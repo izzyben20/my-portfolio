@@ -14,17 +14,11 @@ export const Container = styled.section`
   margin-bottom: 10rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 0;
     flex-direction: column;
+    height: 100vh;
   }
-
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
-
-    width: calc(100vw - 32px);
-    flex-direction: column;
-  }
-`
+`;
 
 export const HeadingContainer = styled.div`
     display: flex;
@@ -53,7 +47,7 @@ export const Title = styled.h2`
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    font-size: 32px;
+    font-size: 40px;
     line-height: 40px;
     font-size: ${(props) => props.main ? '28px' : '32px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
@@ -68,12 +62,10 @@ export const LeftSection = styled.div`
   flex-direction: column;
   display: flex;
   margin-top: 4rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    /* margin: 0 auto; */
-  }
+  
   @media ${(props) => props.theme.breakpoints.md} {
-    margin: 0 auto;
+    padding: 1.5rem;
+    width: 100%;
   }
 `;
 
@@ -87,10 +79,6 @@ export const RightSection = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     width: 80%;
     display: none;
-  }
-  @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
-    margin: 0 auto;
   }
 `;
 
