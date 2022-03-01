@@ -12,7 +12,7 @@ const Skills = () => {
       <Section id='skills'>
           <Fade bottom cascade>
             <SectionDivider/>
-            <SectionTitle>&#60;Skills &amp; Technologies &frasl;&#62;</SectionTitle>
+            <SectionTitle skill>&#60;Skills &amp; Technologies &frasl;&#62;</SectionTitle>
           </Fade>
           <Fade bottom>
             <SectionText>

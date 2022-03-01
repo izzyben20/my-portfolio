@@ -26,7 +26,6 @@ export const HeadingContainer = styled.div`
     flex-direction: column;
     gap: 0;
     justify-content: center;
-    margin-top: 4rem;
 
     @media ${props => props.theme.breakpoints.sm}{
       margin-top: 10rem;
