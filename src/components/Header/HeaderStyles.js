@@ -11,6 +11,7 @@ export const NavContainer = styled.nav`
   padding-top: 2rem;
   position: fixed;
   left: 0;
+  max-width: 100vw;
   right: 0;
   z-index: 10;
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.4);

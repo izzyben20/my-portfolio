@@ -89,7 +89,7 @@ const Circle2 = styled.div`
   opacity: 0.1;
   position: absolute;
   top: 60rem;
-  left: 10rem;
+  left: 0;
   z-index: -2;
 
   animation: circle 25s linear infinite;
