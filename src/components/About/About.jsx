@@ -28,7 +28,7 @@ const About = () => {
                             <SectionText>As a conscientious, industrious, and results-oriented individual, I strive to achieve the greatest possible outcome on everything I do.
                             </SectionText>
                         </Fade>
-                        <Button href='' download> R&eacute;sum&eacute;  <AiOutlineDownload /> </Button>
+                        <Button href='/images/isaac-resume.pdf' download> R&eacute;sum&eacute;  <AiOutlineDownload /> </Button>
                     </RightSection>
                 </FlexContainer>
             </Section>

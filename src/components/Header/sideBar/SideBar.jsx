@@ -66,7 +66,7 @@ const SideBar = ({ toggle, isOpen }) => {
             Contact
           </SideBarItem>
           <Button 
-            href='' 
+            href='/images/isaac-resume.pdf' 
             download 
             style={{padding: '25px 20px', marginTop: '1.2rem'}}
           > 
