@@ -4,7 +4,6 @@ import { LeftSection, RightSection, Container, Img, HeadingContainer, Title, But
 import AnimatedShapes from '../AnimatedShapes';
 import avatar from './avatar.png';
 import { Fade } from 'react-reveal';
-import BackgroundAnimation from './BackgroundAnimation';
 import svg from './svg.svg';
 
 const Hero = () => {
