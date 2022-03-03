@@ -24,7 +24,7 @@ export const Logo = styled.div`
   display: flex;
   color: #26a0da;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 0.8rem;
   text-decoration: none;
 `;
 
