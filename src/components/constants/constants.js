@@ -5,7 +5,7 @@ export const projects = [
         image: '/images/1.png',
         tags: ['React', 'RTK Query', 'Ant Design', 'Chart-js'],
       source: 'https://github.com/izzyben20/cryptohub.git',
-      visit: 'https://google.com',
+      visit: 'https://cryptohubb.netlify.app/',
       id: 0,
     },
     {
@@ -13,8 +13,8 @@ export const projects = [
       description: "Keep tracks of all your incomes and expenses, your money doesn't have to be messy, get a handle on your personal finances by tracking your incomes & expenses. The overview page help you visualize the flow of your money at a glance.",
         image: '/images/3.png',
         tags: ['React', 'Context Api', 'MUI', 'Chart-js'],
-      source: 'https://google.com',
-      visit: 'https://google.com',
+      source: 'https://github.com/izzyben20/budget_app.git',
+      visit: 'https://budgett-ap.netlify.app/',
       id: 2,
     },
     {
@@ -23,7 +23,7 @@ export const projects = [
       image: '/images/4.png',
       tags: ['React', 'CSS'],
       source: 'https://github.com/izzyben20/gpt_figma_design.git',
-      visit: 'https://google.com',
+      visit: 'https://gptai.netlify.app/',
       id: 3,
     },
     {
@@ -32,7 +32,7 @@ export const projects = [
       image: '/images/5.png',
       tags: ['React', 'Redux', 'MUI', 'API'],
       source: 'https://github.com/izzyben20/quiz-app.git',
-      visit: 'https://google.com',
+      visit: 'https://myquiziz.netlify.app/',
       id: 4,
     },
     {
@@ -41,7 +41,7 @@ export const projects = [
       image: '/images/6.png',
       tags: ['React', 'Javascript', 'Styled Components'],
       source: 'https://github.com/izzyben20/tech_jobs.git',
-      visit: 'https://google.com',
+      visit: 'https://techjjobs.netlify.app/',
       id: 5
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
       image: '/images/8.png',
       tags: ['React', 'Styled Components', 'React Scroll'],
       source: 'https://github.com/izzyben20/eCash.git',
-      visit: 'https://google.com',
+      visit: 'https://ecashh.netlify.app/',
       id: 7
     },
     {
@@ -59,7 +59,7 @@ export const projects = [
       image: '/images/7.png',
       tags: ['React', 'Styled Components'],
       source: 'https://github.com/izzyben20/tesla-clone.git',
-      visit: 'https://google.com',
+      visit: 'https://cloneetesla.netlify.app/',
       id: 6
     },
     {
@@ -68,7 +68,7 @@ export const projects = [
       image: '/images/2.png',
       tags: ['React', 'Styled Components', 'React-Scroll'],
       source: 'https://github.com/izzyben20/my-portfolio.git',
-      visit: 'https://google.com',
+      visit: 'https://isaacoyedele.netlify.app/',
       id: 1,
     },
   ];
