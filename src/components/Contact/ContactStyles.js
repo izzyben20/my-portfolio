@@ -94,7 +94,7 @@ export const Button = styled.input`
 
 export const Span = styled.span`
    a {
-    color: #26a0da;
+    color: #fff;
     text-decoration: underline cadetblue;
     font-weight: 500;
   }
