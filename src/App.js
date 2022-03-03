@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import SideBar from './components/Header/sideBar/SideBar';
 import { theme } from './components/GlobalStyles/index';
+import ScrollButton from './components/ScrollButton/ScrollButton';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
                 <Hero />
                 <About />
                 <Projects />
+                <ScrollButton />
                 <Skills />
                 <Contact />
                 <Footer />
