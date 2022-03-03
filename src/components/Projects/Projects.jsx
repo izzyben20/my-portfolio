@@ -28,7 +28,7 @@ import { Button } from '../About/AboutStyles';
 const Projects = () => {
   return (
     <div style={{position: 'relative'}}>
-      <Section nopadding id="projects">
+      <Section id="projects">
         <Slide bottom>
           <SectionDivider />
           <SectionTitle>&#60;Projects &frasl;&#62;</SectionTitle>

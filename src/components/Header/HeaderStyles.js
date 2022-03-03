@@ -53,7 +53,7 @@ export const Div3 = styled.div`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
     font-size: 2.5rem;
     cursor: pointer;
@@ -62,7 +62,7 @@ export const MobileIcon = styled.div`
     border-radius: 50px;
     padding: 8px;
     background-color: #212d45;
-    margin-right: 1rem;
+    margin-right: .8rem;
 
     &:hover {
       transform: scale(1.1);
