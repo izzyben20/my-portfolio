@@ -51,7 +51,7 @@ export const Title = styled.h2`
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    font-size: 40px;
+    font-size: 44px;
     line-height: 40px;
     font-size: ${(props) => props.main ? '28px' : '32px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
