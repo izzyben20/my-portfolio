@@ -12,7 +12,7 @@ export const Container = styled.section`
   position: relative;
   overflow: hidden;
   gap: 1.5rem;
-  margin-bottom: 10rem;
+  margin-bottom: 16rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 0;
