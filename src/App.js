@@ -24,7 +24,7 @@ const App = () => {
             <ThemeProvider theme={theme}>
                 <GlobalStyles />
                 <SideBar toggle={toggle} isOpen={isOpen} />
-                <Header toggle={toggle} />
+                <Header toggle={toggle} isOpen={isOpen}/>
                 <Hero />
                 <About />
                 <Projects />

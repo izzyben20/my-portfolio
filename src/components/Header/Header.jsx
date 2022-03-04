@@ -4,14 +4,15 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 import { animateScroll as scroll } from 'react-scroll';
 import { RiMenu3Line } from 'react-icons/ri';
 import { Div1, Div3, NavLink, SocialIcons, Span, NavContainer, Logo, MobileIcon, NavMenu, SpanLogo } from './HeaderStyles';
+import { AiFillCloseCircle} from 'react-icons/ai';
 
-const Header = ({ toggle }) => {
+const Header = ({ toggle, isOpen }) => {
 
     return (
         <Fade top cascade>
             <NavContainer>
-                <Div1 onClick={() => scroll.scrollToTop()}>
-                    <Logo>
+                <Div1 onClick={() => scroll.scrollToTop()} >
+                    <Logo onClick={isOpen && toggle }>
                         <Span> <SpanLogo>IO</SpanLogo>IsaacDele</Span>
                     </Logo>
                 </Div1>
@@ -80,7 +81,7 @@ const Header = ({ toggle }) => {
                 </Div3>
 
                 <MobileIcon>
-                    <RiMenu3Line onClick={toggle} />
+                    {isOpen ? <AiFillCloseCircle onClick={toggle}  /> : <RiMenu3Line onClick={toggle}/> }
                 </MobileIcon>
             </NavContainer>
         </Fade>

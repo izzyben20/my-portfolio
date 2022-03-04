@@ -6,12 +6,12 @@ export const NavContainer = styled.nav`
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  background: ${({ scrollNav }) => (scrollNav ? 'transparent' : '#0F1629')};
+  background: #0F1629;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   position: fixed;
+  top: 0;
   left: 0;
-  max-width: 100vw;
   right: 0;
   z-index: 10;
   box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.4);

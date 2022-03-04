@@ -10,7 +10,7 @@ export const Container = styled.aside`
   align-items: center;
   justify-content: center;
   top: 0;
-  z-index: 1000;
+  z-index: 9;
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
