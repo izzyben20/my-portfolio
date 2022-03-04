@@ -1,13 +1,12 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillMail, AiFillTwitterCircle } from 'react-icons/ai';
 import { SocialIcons } from '../../Footer/FooterStyles';
-import { AiFillCloseCircle, AiOutlineDownload } from 'react-icons/ai';
+import { AiOutlineDownload } from 'react-icons/ai';
 import { Button } from '../../About/AboutStyles';
 import {
   SideBarWrapper,
   SideBarMenu,
   SideBarItem,
-  Icon,
   Container,
   SocialIconsContainer
 } from './SideBarStyles';
@@ -15,10 +14,6 @@ import {
 const SideBar = ({ toggle, isOpen }) => {
   return (
     <Container isOpen={isOpen}>
-      <Icon onClick={toggle}>
-        <AiFillCloseCircle />
-      </Icon>
-
       <SideBarWrapper>
         <SideBarMenu>
           <SideBarItem 

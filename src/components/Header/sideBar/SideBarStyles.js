@@ -16,26 +16,6 @@ export const Container = styled.aside`
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
-export const Icon = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  font-size: 3rem;
-  cursor: pointer;
-  color: #26a0da;
-  transition: 0.3s ease;
-  border-radius: 100%;
-  padding: 8px;
-  background-color: #212d45;
-
-    &:hover {
-      transform: scale(1.1);
-      color: #fff;
-    }
-`;
-
 export const SideBarWrapper = styled.div`
   color: #26a0da;
 `;
