@@ -47,7 +47,7 @@ export const RightInput = styled.div`
 export const Input = styled.input`
   width: 100%;
   padding: 1.2rem;
-  background-color: rgba(250, 250, 250, 0.6);
+  background-color: rgba(250, 250, 250, 0.8);
   border: none;
 
   &:focus {
@@ -61,7 +61,7 @@ export const TextArea = styled.textarea`
   height: 200px;
   padding: 1.2rem;
   border: none;
-  background-color: rgba(250, 250, 250, 0.6);
+  background-color: rgba(250, 250, 250, 0.8);
 
   &:focus {
     outline: none;
