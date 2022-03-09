@@ -3,7 +3,7 @@ import { Fade, Slide } from 'react-reveal';
 import { Section, SectionDivider, SectionTitle, SectionText } from '../GlobalStyles/index';
 import { IconContainer, Skill } from './SkillsStyles';
 import { DiCss3, DiHtml5, DiReact, DiSass, DiGit } from 'react-icons/di'
-import { SiRedux, SiMaterialui, SiStyledcomponents, SiGithub, SiJavascript, SiBootstrap } from 'react-icons/si'
+import { SiRedux, SiMaterialui, SiStyledcomponents, SiGithub, SiJavascript, SiBootstrap, SiGraphql } from 'react-icons/si'
 import AnimatedShapes from '../AnimatedShapes';
 
 const Skills = () => {
@@ -40,6 +40,10 @@ const Skills = () => {
               <Skill>
                 <SiRedux size='8rem' />
                 <p>Redux/Redux-Toolkit</p>
+              </Skill>
+              <Skill>
+                <SiGraphql size='8rem'/>
+                <p>GraphQL</p>
               </Skill>
               <Skill>
                 <DiSass size='8rem'/>
