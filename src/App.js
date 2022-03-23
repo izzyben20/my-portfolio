@@ -27,9 +27,9 @@ const App = () => {
                 <Header toggle={toggle} isOpen={isOpen}/>
                 <Hero />
                 <About />
+                <Skills />
                 <Projects />
                 <ScrollButton />
-                <Skills />
                 <Contact />
                 <Footer />
             </ThemeProvider>
