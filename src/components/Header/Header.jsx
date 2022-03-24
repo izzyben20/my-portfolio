@@ -32,18 +32,6 @@ const Header = ({ toggle, isOpen }) => {
                         </li>
                         <li>
                             <NavLink
-                                to="projects"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}
-                            >
-                                Projects
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
                                 to="skills"
                                 smooth={true}
                                 duration={500}
@@ -52,6 +40,18 @@ const Header = ({ toggle, isOpen }) => {
                                 offset={-80}
                             >
                                 Skills
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
+                                to="projects"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact="true"
+                                offset={-80}
+                            >
+                                Projects
                             </NavLink>
                         </li>
                         <li>
