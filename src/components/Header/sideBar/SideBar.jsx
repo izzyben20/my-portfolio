@@ -28,17 +28,6 @@ const SideBar = ({ toggle, isOpen }) => {
             About
           </SideBarItem>
           <SideBarItem 
-            to="projects" 
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact="true"
-            offset={-80}
-          >
-            Projects
-          </SideBarItem>
-          <SideBarItem 
             to="skills" 
             onClick={toggle}
             smooth={true}
@@ -48,6 +37,17 @@ const SideBar = ({ toggle, isOpen }) => {
             offset={-80}
           >
             Skills
+          </SideBarItem>
+          <SideBarItem 
+            to="projects" 
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Projects
           </SideBarItem>
           <SideBarItem 
             to="contact" 
