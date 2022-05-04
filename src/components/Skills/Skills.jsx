@@ -63,7 +63,7 @@ const Skills = () => {
               </Skill>
               <Skill>
                 <SiMaterialui size='8rem'/>
-                <p>MaterialUi</p>
+                <p>MaterialUI</p>
               </Skill>
               <Skill>
                 <SiStyledcomponents size='8rem'/>
