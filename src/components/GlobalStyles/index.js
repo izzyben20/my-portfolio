@@ -1,6 +1,4 @@
-import { Rotate } from 'react-reveal';
 import styled from 'styled-components';
-import { keyframes } from 'styled-components';
 
 export const Section = styled.section`
   display: ${(props) => (props.grid ? 'grid' : 'flex')};
