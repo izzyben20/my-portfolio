@@ -15,7 +15,7 @@ export const NavContainer = styled.nav`
   right: 0;
   max-width: 100vw;
   z-index: 10;
-  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.3);
 `;
 
 export const Logo = styled.div`
@@ -91,7 +91,7 @@ export const NavLink = styled(Link)`
   line-height: 32px;
   color: #26a0da;
   transition: 0.4s ease;
-  padding-bottom: 1.9rem;
+  padding-bottom: 1.6rem;
   &:hover {
     color: rgba(250, 250, 250, 0.8);
     opacity: 1;
