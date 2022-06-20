@@ -1,5 +1,14 @@
 export const projects = [
     {
+      title: 'Cryptobase',
+      description: "Cryptobase is  a premier source for everything crypto related. This app features the latest updates, helps keep track of trending coins as well as allows you create a watch list to keep track of your favorite cryptos.",
+        image: '/images/10.png',
+        tags: ['React', 'TailwindCSS', 'Firebase'],
+      source: 'https://github.com/izzyben20/cryptobase.git',
+      visit: 'https://cryptobase.netlify.app/',
+      id: 6868,
+    },
+    {
       title: 'CryptoHub',
       description: "CryptoHub is a cryptocurrency news media, a premier source for everything crypto related. This app features the latest updates, converging on daily news in the cryptocurrencies world including Bitcoins, Altcoins and, crypto trading.",
         image: '/images/1.png',
@@ -61,14 +70,5 @@ export const projects = [
       source: 'https://github.com/izzyben20/tesla-clone.git',
       visit: 'https://cloneetesla.netlify.app/',
       id: 6
-    },
-    {
-      title: 'Portfolio-App',
-      description:"Built this single page application for my portfolio with react, styled components and react scroll for smooth scrolling animation.",
-      image: '/images/2.png',
-      tags: ['React', 'Styled Components', 'React-Scroll'],
-      source: 'https://github.com/izzyben20/my-portfolio.git',
-      visit: 'https://isaacoyedele.netlify.app/',
-      id: 1,
-    },
+    }
   ];
