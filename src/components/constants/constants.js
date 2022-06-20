@@ -5,7 +5,7 @@ export const projects = [
         image: '/images/11.png',
         tags: ['React', 'Tailwind CSS', 'Firebase', 'Context API'],
       source: 'https://github.com/izzyben20/cryptobase.git',
-      visit: 'https://cryptobase.netlify.app/',
+      visit: 'https://cryptobasez.netlify.app/',
       id: 6868,
     },
     {
