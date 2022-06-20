@@ -3,7 +3,7 @@ export const projects = [
       title: 'Cryptobase',
       description: "Cryptobase is  a premier source for everything crypto related. This app features the latest updates, helps keep track of trending coins as well as allows you create a watch list to keep track of your favorite cryptos.",
         image: '/images/10.png',
-        tags: ['React', 'Tailwind CSS', 'Firebase'],
+        tags: ['React', 'Tailwind CSS', 'Firebase', 'Context API'],
       source: 'https://github.com/izzyben20/cryptobase.git',
       visit: 'https://cryptobase.netlify.app/',
       id: 6868,
